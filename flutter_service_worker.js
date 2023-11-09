@@ -18,7 +18,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "c455ec1930a177e3b8453350e933dacc
 "assets/assets/projects/ship.jpg": "5ef1296143b0f357c5da0a84e59b4a10",
 "assets/assets/projects/smoke.gif": "2bad6558946943950c3b2d8a5103e40a",
 "assets/assets/projects/wildfire.jpg": "58ef6b77689b34b2f4dfdf434ce39c37",
-"assets/assets/services/app.png": "2d1883500afb9e721b7309ce8e24ea67",
+"assets/assets/services/app.png": "79457962e948b47fb84daf5858f9ca50",
 "assets/assets/services/app1.png": "c3d7079b03e536d813df69584c0221b3",
 "assets/assets/services/blog.png": "5e1cbb2c67e2b8ea9ae4bcce0705d2a4",
 "assets/assets/services/fiverr.png": "9d4018924e1f0e983a86e7eaf8a0958b",
@@ -79,9 +79,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "c455ec1930a177e3b8453350e933dacc
 "flutter.js": "6b515e434cea20006b3ef1726d2c8894",
 "icons/Icon-192.png": "f4caaac360606dabc85f91e829ef2753",
 "icons/Icon-512.png": "c2ab9d28efd0e2695b6cba6b1323053f",
-"index.html": "2a57486d928da981b2eab1b0cfb19b40",
-"/": "2a57486d928da981b2eab1b0cfb19b40",
-"main.dart.js": "df1590fdf59cdd74681144cef3f8525e",
+"index.html": "f37973d3b2c8d8252e4b9dd833614bf6",
+"/": "f37973d3b2c8d8252e4b9dd833614bf6",
+"main.dart.js": "d0d4b3599917bc27ee27fa1afa0f31a6",
 "manifest.json": "ba599e875b94bd063e6b411a8f68dfef",
 "version.json": "a29e8b22a08aa0274b027931eec216c4"};
 // The application shell files that are downloaded before a service worker can
