@@ -1,8 +1,8 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
 baseURL: https://hattorihanzo95.github.io/
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Jason Manesis"
 
 # Use Hugo modules to add theme
 module:
@@ -26,10 +26,10 @@ languages:
     languageName: English
     title: "John's Blog"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+  el:
+    languageCode: el
+    languageName: Ελληνικά
+    title: Ιάσονας Μανέσης
     weight: 2
 # default language for the content
 defaultContentLanguage: en
