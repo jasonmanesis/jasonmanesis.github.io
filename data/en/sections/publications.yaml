@@ -14,69 +14,51 @@ buttons:
   filter: "all"
 - name: "Machine Learning"
   filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+- name: "Remote Sensing"
+  filter: "remote-sensing"
+- name: "Earth Observation"
+  filter: "earth-observation"
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: Automated Lunar Crater Mapping, Through a Deep CNN Architecture, from DEM Extracted Images
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Ziti Publications
+    date: 2021
+    url: "#"
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: I. Manesis
+    url: https://orcid.org/0009-0006-8103-5601
+  - name: D. Argialas
+    url: "#"
+  - name: E. Protopapadakis
+    url: "#"
   paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+    summary: Deep CNN approach for automated crater extraction from DEM-derived imagery to support planetary mapping workflows.
+    url: "#"
+  categories: ["machinelearning", "remote-sensing"]
+  tags: ["Deep Learning", "Remote Sensing", "Crater Mapping"]
 
-- title: An Sample Paper on Image Processing
+- title: Detecting Marine Pollutants using Sentinel-1 SAR and Sentinel-2 Optical Imagery
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: IEEE International Geoscience and Remote Sensing Symposium (IGARSS)
+    date: 2025
+    url: https://www.igarss2025.org/
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: I. Manesis
+    url: https://orcid.org/0009-0006-8103-5601
+  - name: P. Mikeli
+    url: "#"
+  - name: K. Kikaki
+    url: "#"
+  - name: I. Kakogeorgiou
+    url: "#"
+  - name: A. Karmas
+    url: "#"
+  - name: K. Karantzalos
+    url: "#"
   paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
-
-- title: An Example Paper on Security
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
-  paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+    summary: Multi-sensor Earth observation approach for marine pollutant detection using SAR and optical satellite imagery.
+    url: "#"
+  categories: ["machinelearning", "remote-sensing", "earth-observation"]
+  tags: ["SAR", "Sentinel-1", "Sentinel-2", "Environmental Monitoring"]
