@@ -16,7 +16,7 @@ degrees:
   institution:
     name: National Technical University of Athens
     url: "https://geoinformatics.ntua.gr/"
-    logo: /images/sections/education/tech_college.png
+    logo: /images/sections/education/NTUA.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
@@ -36,7 +36,7 @@ degrees:
   institution:
     name: National Technical University of Athens
     url: "https://www.survey.ntua.gr/en/"
-    logo: /images/sections/education/university.jpg
+    logo: /images/sections/education/NTUA.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/university.jpg
   grade: #(optional)

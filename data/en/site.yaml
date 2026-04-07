@@ -24,7 +24,7 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Iason Manesis
+  title: Jason Manesis
   type: website
   description: Geoinformatics Engineer specializing in remote sensing, geospatial deep learning, and MLOps.
   image: images/author/john.png
