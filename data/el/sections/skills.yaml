@@ -1,50 +1,97 @@
 # section information
 section:
-  name: দক্ষতা
+  name: Skills
   id: skills
   enable: true
   weight: 2
   showOnNavbar: true
-  template: sections/skills.html
+  filter: true
   # Can optionally hide the title in sections
   # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Programming
+  filter: "programming"
+- name: Machine Learning
+  filter: "ml"
+- name: Geospatial
+  filter: "geospatial"
+- name: Platforms
+  filter: "platforms"
+- name: Data Science
+  filter: "data"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: "/images/sections/skills/kubernetes.png"
-  summary: "আমি Kubernetes এ অ্যাপ্লিকেশান পরিচালনা করতে সক্ষম । আমার  Kubernetes এ CRD এর জন্য কন্ট্রোলার লিখার অভিজ্ঞতা আছে ।"
-  url: "https://kubernetes.io/"
-
-- name: Go ডেভেলপমেন্ট
-  logo: "/images/sections/skills/go.png"
-  summary: "ডেভেলপমেন্টের জন্য প্রধান ভাষা হিসেবে ব্যবহার করছি। টেস্ট যোগ্য,  রক্ষণাবেক্ষণ যোগ্য কোড লিখতে সক্ষম।"
-  url: "https://golang.org/"
-
-- name: ক্লাউড কম্পিউটিং
-  logo: "/images/sections/skills/cloud.png"
-  summary: "GCP, AWS, Azure গুলোর মত বেশিরভাগ বড় বড় ক্লাউড নিয়ে কাজর অভিজ্ঞতা আছে।"
-
-- name: Docker
-  logo: "/images/sections/skills/docker.svg"
-  summary: "বেশির ভাগ প্রোগ্রামেরই  Docker কন্টেইনার তৈরি করি। মাল্টি স্টেজ এবং মাল্টি আর্কিটেকচার কন্টেইনার নিয়ে অভিজ্ঞতা আছে।"
-  url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: "/images/sections/skills/prometheus.png"
-  summary: "Prometheus metrics সেটআপ ও কনফিগার করতে সক্ষম। PromQL, AlertManager নিয়ে অভিজ্ঞতা আছে। Metric exporters লিখাতেও অভিজ্ঞতা আছে।"
-  url: "https://prometheus.io/"
-
-- name: লিনাক্স
-  logo: "/images/sections/skills/linux.png"
-  summary: "প্রধান অপারেটিং সিস্টেম হিসেবে ব্যবহার করছি। bash/shell scripts লিখতে সক্ষম।"
-
-- name: গিট
-  logo: "/images/sections/skills/git.png"
-  summary: "গিট ভিত্তিক ডেভেলপমেন্টের অভিজ্ঞতা আছে। বেশির ভাগ ক্ষেতরেই GitHub ব্যবহার করি তবে GitLab ব্যবহারেরও অভিজ্ঞতা আছে।"
-  url: "https://git-scm.com/"
+- name: Python
+  summary: "Primary language for geospatial AI pipeline development, model training, and production-grade automation."
+  categories: ["programming", "ml", "geospatial", "data"]
 
 - name: C++
-  logo: "/images/sections/skills/c++.png"
-  summary: "বেসিক C/C++ প্রোগ্রামিং জানি । প্রব্লেম সল্ভিং এবং কন্টেস্ট এর জন্য ব্যবহার করেছি।"
+  logo: /images/sections/skills/c++.png
+  summary: "Used for performance-aware components and systems-level implementations in geospatial processing stacks."
+  categories: ["programming"]
+
+- name: SQL
+  summary: "Used for spatial and tabular data management in analytics and model feedback workflows."
+  categories: ["programming", "data"]
+
+- name: Bash
+  summary: "Automation of data engineering, preprocessing, and deployment operations in Linux environments."
+  categories: ["programming", "platforms"]
+
+- name: PyTorch
+  summary: "Deep learning framework used for semantic segmentation, edge AI optimization, and experimental research pipelines."
+  categories: ["ml"]
+
+- name: TensorFlow
+  logo: /images/sections/skills/cloud.png
+  summary: "Applied for model prototyping and deployment across remote sensing machine learning workflows."
+  categories: ["ml"]
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Containerized geospatial ML workflows for reproducible training, inference, and production deployment."
+  categories: ["platforms"]
+  url: "https://www.docker.com/"
+
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: "Orchestrates scalable AI and geospatial services for robust production and research environments."
+  categories: ["platforms"]
+  url: "https://kubernetes.io/"
+
+- name: GDAL/OGR
+  summary: "Core stack for large-scale geospatial raster/vector transformations and production geoprocessing pipelines."
+  categories: ["geospatial"]
+
+- name: Rasterio, Rioxarray, and Xarray
+  summary: "Advanced geospatial raster analytics, reprojection, chunked processing, and scientific data manipulation."
+  categories: ["geospatial", "data"]
+
+- name: GeoPandas and Shapely
+  summary: "Vector geospatial processing, topology operations, and geometry engineering for ML data preparation."
+  categories: ["geospatial"]
+
+- name: OpenCV
+  summary: "Computer vision preprocessing and image manipulation for multispectral and SAR modeling workflows."
+  categories: ["ml", "data"]
+
+- name: NumPy, SciPy, Pandas, and Dask
+  summary: "Scientific computing and parallel data processing backbone for high-volume Earth observation analytics."
+  categories: ["data"]
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Primary operating environment for development, orchestration, and scalable geospatial compute workloads."
+  categories: ["platforms"]
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Version control, collaborative code review, and structured research-to-production workflow management."
+  categories: ["platforms"]
+  url: "https://git-scm.com/"
