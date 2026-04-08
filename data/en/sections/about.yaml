@@ -40,10 +40,6 @@ socialLinks:
   icon: "fab fa-orcid"
   url: "https://orcid.org/0009-0006-8103-5601"
 
-- name: Discord
-  icon: "fas fa-discord"
-  url: "https://discord.com/users/jason_manesis_81136"
-
 - name: Instagram
   icon: "fab fa-instagram"
   url: "https://www.instagram.com/jason_manesis/"  
