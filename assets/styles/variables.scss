@@ -1,0 +1,90 @@
+@use 'sass:map';
+
+$breakpoints: (
+  tiny: 320px,
+  small: 640px,
+  medium: 768px,
+  large: 1024px,
+  very-large: 1280px,
+  extra-large: 1536px,
+  ultra-large: 2560px,
+);
+
+$transition-duration: 0.3s;
+$transition-type: ease-out;
+$box-shadow: 0px 8px 56px rgba(15, 80, 100, 0.16);
+
+/*
+  Core Toha theme tokens.
+  These values drive the main site surfaces in both themes.
+*/
+$themes: (
+  'light': (
+    'accent-color': #0f766e,
+    'hover-over-accent-color': #0d9488,
+    'text-over-accent-color': #ecfeff,
+
+    'bg-primary': #f6f8fb,
+    'bg-primary-inverse': #0f172a,
+    'bg-secondary': #e7edf3,
+    'bg-card': #ffffff,
+
+    'heading-color': #102a43,
+    'text-color': #243b53,
+    'inverse-text-color': #e2e8f0,
+    'muted-text-color': #5c6f82,
+
+    'inline-code-color': #b91c1c,
+    'highlight-color': #fef08a,
+    'footer-color': #0f172a,
+  ),
+  'dark': (
+    'accent-color': #2dd4bf,
+    'hover-over-accent-color': #5eead4,
+    'text-over-accent-color': #052e2b,
+
+    'bg-primary': #0b1220,
+    'bg-primary-inverse': #0f172a,
+    'bg-secondary': #111a2b,
+    'bg-card': #162134,
+
+    'heading-color': #e6edf7,
+    'text-color': #c6d2e3,
+    'inverse-text-color': #0b1220,
+    'muted-text-color': #91a3bc,
+
+    'inline-code-color': #f87171,
+    'highlight-color': #facc15,
+    'footer-color': #0a101b,
+  ),
+);
+
+$brand-colors: (
+  'facebook': #3b5998,
+  'twitter': #1da1f2,
+  'linkedin': #0077b5,
+  'reddit': #ff4500,
+  'tumblr': #35465c,
+  'pocket': #ef4056,
+  'diaspora': #1e1e1e,
+  'whatsapp': #25d366,
+);
+
+$alerts: (
+  'success': (
+    'bg-color': #dcfce7,
+    'text-color': #166534,
+  ),
+  'info': (
+    'bg-color': #e0f2fe,
+    'text-color': #075985,
+  ),
+  'warning': (
+    'bg-color': #fef9c3,
+    'text-color': #854d0e,
+  ),
+  'danger': (
+    'bg-color': #fee2e2,
+    'text-color': #991b1b,
+  ),
+);
