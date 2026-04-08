@@ -49,9 +49,9 @@ projects:
   summary: Ultra-light edge AI segmentation architecture with pruning, transfer learning, and quantization for on-board marine plastic detection.
   tags: ["research", "personal", "edge-ai"]
 
-- name: Automated Strategic Camouflage for Orthophotography
-  role: Geoinformatics Engineer
-  timeline: "Mar 2023 - Oct 2023"
-  url: "#"
-  summary: Automated camouflage and declassification pipeline for large-scale aerial orthophotography with high-throughput geospatial processing.
-  tags: ["professional", "geospatial", "image-processing"]
+- name: Ship Detection on Remote Sensing Synthetic Aperture Radar Data via Deep Learning Techniques
+  role: Student Researcher
+  timeline: "Nov 2020 - Feb 2022"
+  url: "https://github.com/jasonmanesis/Ship-Detection-on-Remote-Sensing-Synthetic-Aperture-Radar-Data"
+  summary: The present project was conducted as part of my diploma thesis which focuses on the investigation of methods for the effective detection of ships in synthetic aperture radar satellite imagery utilizing deep learning techniques.
+  tags: ["personal", "geospatial", "object-detection"]

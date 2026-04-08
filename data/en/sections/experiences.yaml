@@ -53,7 +53,7 @@ experiences:
     location: Athens, Greece
     logo: /images/sections/experiences/rslab_logo.png
     # Can optionally show a different logo for dark theme
-    darkLogo: /images/sections/experiences/rslab_log_white.png
+    darkLogo: /images/sections/experiences/rslab_logo_white.png
     overview: Research-intensive university with multiple geoinformatics and AI projects in remote sensing.
   positions:
   - designation: AI Research Engineer
