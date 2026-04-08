@@ -20,23 +20,23 @@ $box-shadow: 0px 8px 56px rgba(15, 80, 100, 0.16);
 */
 $themes: (
   'light': (
-    'accent-color': #0891b2,
-    'hover-over-accent-color': #06b6d4,
-    'text-over-accent-color': #e4e4e7,
+    'accent-color': #a39b8e,
+    'hover-over-accent-color': #7d7467,
+    'text-over-accent-color': #1f1a15,
 
-    'bg-primary': #f8fafc,
-    'bg-primary-inverse': #0f172a,
-    'bg-secondary': #e2e8f0,
-    'bg-card': #ffffff,
+    'bg-primary': #f7f4f0,
+    'bg-primary-inverse': #1f1a15,
+    'bg-secondary': #ebe6de,
+    'bg-card': #ebe6de,
 
-    'heading-color': #1e293b,
-    'text-color': #334155,
-    'inverse-text-color': #cbd5e1,
-    'muted-text-color': #64748b,
+    'heading-color': #1f1a15,
+    'text-color': #3b332a,
+    'inverse-text-color': #f7f4f0,
+    'muted-text-color': #635e56,
 
-    'inline-code-color': #dc2626,
-    'highlight-color': #fde68a,
-    'footer-color': #0f172a,
+    'inline-code-color': #3b332a,
+    'highlight-color': #d1cdc2,
+    'footer-color': #3b332a,
   ),
   'dark': (
     'accent-color': #8c8375,

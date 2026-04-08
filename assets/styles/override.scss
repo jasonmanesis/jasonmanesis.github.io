@@ -4,6 +4,9 @@
 */
 
 :root {
+  /* Light theme */
+  --jm-light-border: #d1cdc2;
+
   /* Dark theme */
   --jm-dark-accent: #8c8375;
   --jm-dark-accent-hover: #a69f92;
@@ -14,6 +17,18 @@
   --jm-dark-text: #d9d2c5;
   --jm-dark-muted: #a69f92;
   --jm-dark-border: #3d362d;
+}
+
+/* Light mode border refinement */
+.card,
+.card .card-footer,
+.section-holder,
+.container,
+.navbar,
+.top-navbar,
+.bottom-navbar,
+hr {
+  border-color: var(--jm-light-border) !important;
 }
 
 /* Dark mode */
