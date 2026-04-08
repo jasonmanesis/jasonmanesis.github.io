@@ -105,10 +105,6 @@ skills:
   summary: "Vector geospatial processing, topology operations, and geometry engineering for ML data preparation."
   categories: ["geospatial"]
 
-- name: OpenCV
-  summary: "Computer vision preprocessing and image manipulation for multispectral and SAR modeling workflows."
-  categories: ["ml", "data"]
-
 - name: NumPy, SciPy, Pandas, and Dask
   summary: "Scientific computing and parallel data processing backbone for high-volume Earth observation analytics."
   categories: ["data"]

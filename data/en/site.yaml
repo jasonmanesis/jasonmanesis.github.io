@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../.vscode/schemas/toha-site.schema.json
 # Copyright Notice
-copyright: © 2026 Copyright.
+copyright: © 2026 Jason Manesis.
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
 disclaimer: |-
@@ -27,5 +27,5 @@ openGraph:
   title: Jason Manesis
   type: website
   description: Geoinformatics Engineer specializing in remote sensing, geospatial deep learning, and MLOps.
-  image: images/author/john.png
+  image: images/author/jason.png
   url: https://jasonmanesis.github.io/

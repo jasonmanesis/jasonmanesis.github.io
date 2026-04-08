@@ -16,8 +16,8 @@ buttons:
   filter: "professional"
 - name: Research
   filter: "research"
-- name: MLOps
-  filter: "mlops"
+- name: Personal
+  filter: "personal"
 
 # your projects
 projects:
@@ -26,7 +26,7 @@ projects:
   timeline: "Oct 2025 - Present"
   url: "https://www.hsc.gov.gr/"
   summary: Nationwide VHR land cover mapping pipeline combining DINO-based feature extraction, SAM boundary refinement, and active learning with expert-in-the-loop corrections.
-  tags: ["professional", "research", "mlops", "remote-sensing"]
+  tags: ["professional", "research", "personal", "remote-sensing"]
 
 - name: SAR to SAR Co-registration Methodologies
   role: Geospatial Deep Learning Engineer
@@ -40,14 +40,14 @@ projects:
   timeline: "Mar 2022 - Oct 2025"
   url: "https://www.ntua.gr/"
   summary: Near-real-time MLOps platform integrating SAR and optical data for oil spill detection, analytics, and decision support in marine environments.
-  tags: ["professional", "research", "mlops", "earth-observation"]
+  tags: ["professional", "research", "personal", "earth-observation"]
 
 - name: Edge SpAIce Marine Plastic Detection
   role: AI Research Engineer
   timeline: "Jan 2025 - Jun 2025"
   url: "https://www.ntua.gr/"
   summary: Ultra-light edge AI segmentation architecture with pruning, transfer learning, and quantization for on-board marine plastic detection.
-  tags: ["research", "mlops", "edge-ai"]
+  tags: ["research", "personal", "edge-ai"]
 
 - name: Automated Strategic Camouflage for Orthophotography
   role: Geoinformatics Engineer

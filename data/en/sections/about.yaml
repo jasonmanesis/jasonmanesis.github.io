@@ -37,12 +37,16 @@ socialLinks:
   url: "https://www.linkedin.com/in/jasonmanesis/"
 
 - name: ORCID
-  icon: "ai ai-orcid"
+  icon: "fab fa-orcid"
   url: "https://orcid.org/0009-0006-8103-5601"
 
-- name: Website
-  icon: "fas fa-globe"
-  url: "https://jasonmanesis.github.io/"
+- name: Discord
+  icon: "fas fa-discord"
+  url: "https://discord.com/users/jason_manesis_81136"
+
+- name: Instagram
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/jason_manesis/"  
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.

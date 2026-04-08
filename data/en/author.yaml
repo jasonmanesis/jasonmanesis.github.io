@@ -7,13 +7,13 @@ image: "images/author/jason.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "jasonmanesis@gmail.com"
-  phone: ""
+  phone: "+30 123 456 7891"
   github: jasonmanesis
   linkedin: jasonmanesis
 
 # some summary about what you do
 summary:
   - Geoinformatics Engineer
-  - Geospatial Deep Learning Engineer
-  - Remote Sensing and Earth Observation Specialist
-  - MLOps for Near-Real-Time environmental analytics
+  - Geospatial Deep Learning
+  - Remote Sensing and Earth Observation
+  - Near-Real-Time environmental analytics

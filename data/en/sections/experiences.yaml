@@ -16,7 +16,7 @@ experiences:
     location: "Athens, Greece"
     logo: /images/sections/experiences/logohd.png
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company1.jpg
+    darkLogo: /images/sections/experiences/logohd.png
     # company overview
     overview: National organization focused on space applications, Earth observation, and geospatial intelligence initiatives.
   positions:
@@ -33,7 +33,7 @@ experiences:
 
 - company:
     name: Red Edge
-    url: "#"
+    url: "https://rededge.ai/"
     location: Athens, Greece
     logo: /images/sections/experiences/rededge_logo_light.webp
     # Can optionally show a different logo for dark theme

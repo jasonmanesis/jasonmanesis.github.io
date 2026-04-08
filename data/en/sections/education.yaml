@@ -10,7 +10,7 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Geoinformatics Engineer (MEng)
+- name: Geoinformatics Engineer (MSc)
   icon: fa-graduation-cap
   timeframe: 2023-2025
   institution:
@@ -30,7 +30,7 @@ degrees:
       content: Remote Sensing, Data Science, Machine Learning, Deep Learning.
     - name: ECTS Credits
       content: 120
-- name: Rural, Surveying and Geoinformatics Engineer (Diploma)
+- name: Rural, Surveying and Geoinformatics Engineer (MEng)
   icon: fa-university
   timeframe: 2013-2022
   institution:
