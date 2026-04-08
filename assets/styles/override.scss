@@ -1,0 +1,154 @@
+/*
+  Site palette overrides for Toha.
+  Edit only the tokens below to tune both themes.
+*/
+
+:root {
+  /* Light theme */
+  --jm-light-accent: #0f766e;
+  --jm-light-accent-hover: #0d9488;
+  --jm-light-bg-primary: #f6f8fb;
+  --jm-light-bg-secondary: #e7edf3;
+  --jm-light-bg-card: #ffffff;
+  --jm-light-heading: #102a43;
+  --jm-light-text: #243b53;
+  --jm-light-muted: #5c6f82;
+
+  /* Dark theme */
+  --jm-dark-accent: #2dd4bf;
+  --jm-dark-accent-hover: #5eead4;
+  --jm-dark-bg-primary: #0b1220;
+  --jm-dark-bg-secondary: #111a2b;
+  --jm-dark-bg-card: #162134;
+  --jm-dark-heading: #e6edf7;
+  --jm-dark-text: #c6d2e3;
+  --jm-dark-muted: #91a3bc;
+}
+
+/* Light mode */
+body,
+.bg-primary {
+  background-color: var(--jm-light-bg-primary) !important;
+  color: var(--jm-light-text);
+}
+
+.bg-secondary {
+  background-color: var(--jm-light-bg-secondary) !important;
+}
+
+.card,
+.card .card-footer {
+  background: var(--jm-light-bg-card) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--jm-light-heading);
+}
+
+p,
+li,
+span,
+small {
+  color: var(--jm-light-text);
+}
+
+.text-muted,
+.muted,
+.card .text-muted {
+  color: var(--jm-light-muted) !important;
+}
+
+a,
+.nav-link,
+.btn-link {
+  color: var(--jm-light-accent);
+}
+
+a:hover,
+.nav-link:hover,
+.btn-link:hover {
+  color: var(--jm-light-accent-hover);
+}
+
+.btn-info,
+.btn-primary,
+kbd {
+  background-color: var(--jm-light-accent) !important;
+  border-color: var(--jm-light-accent) !important;
+}
+
+.btn-info:hover,
+.btn-primary:hover {
+  background-color: var(--jm-light-accent-hover) !important;
+  border-color: var(--jm-light-accent-hover) !important;
+}
+
+/* Dark mode */
+html[data-theme='dark'] {
+  body,
+  .bg-primary {
+    background-color: var(--jm-dark-bg-primary) !important;
+    color: var(--jm-dark-text) !important;
+  }
+
+  .bg-secondary {
+    background-color: var(--jm-dark-bg-secondary) !important;
+  }
+
+  .card,
+  .card .card-footer {
+    background: var(--jm-dark-bg-card) !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--jm-dark-heading) !important;
+  }
+
+  p,
+  li,
+  span,
+  small {
+    color: var(--jm-dark-text) !important;
+  }
+
+  .text-muted,
+  .muted,
+  .card .text-muted {
+    color: var(--jm-dark-muted) !important;
+  }
+
+  a,
+  .nav-link,
+  .btn-link {
+    color: var(--jm-dark-accent) !important;
+  }
+
+  a:hover,
+  .nav-link:hover,
+  .btn-link:hover {
+    color: var(--jm-dark-accent-hover) !important;
+  }
+
+  .btn-info,
+  .btn-primary,
+  kbd {
+    background-color: var(--jm-dark-accent) !important;
+    border-color: var(--jm-dark-accent) !important;
+  }
+
+  .btn-info:hover,
+  .btn-primary:hover {
+    background-color: var(--jm-dark-accent-hover) !important;
+    border-color: var(--jm-dark-accent-hover) !important;
+  }
+}
