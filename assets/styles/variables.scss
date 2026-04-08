@@ -20,42 +20,42 @@ $box-shadow: 0px 8px 56px rgba(15, 80, 100, 0.16);
 */
 $themes: (
   'light': (
-    'accent-color': #0f766e,
-    'hover-over-accent-color': #0d9488,
-    'text-over-accent-color': #ecfeff,
+    'accent-color': #0891b2,
+    'hover-over-accent-color': #06b6d4,
+    'text-over-accent-color': #e4e4e7,
 
-    'bg-primary': #f6f8fb,
+    'bg-primary': #f8fafc,
     'bg-primary-inverse': #0f172a,
-    'bg-secondary': #e7edf3,
+    'bg-secondary': #e2e8f0,
     'bg-card': #ffffff,
 
-    'heading-color': #102a43,
-    'text-color': #243b53,
-    'inverse-text-color': #e2e8f0,
-    'muted-text-color': #5c6f82,
+    'heading-color': #1e293b,
+    'text-color': #334155,
+    'inverse-text-color': #cbd5e1,
+    'muted-text-color': #64748b,
 
-    'inline-code-color': #b91c1c,
-    'highlight-color': #fef08a,
+    'inline-code-color': #dc2626,
+    'highlight-color': #fde68a,
     'footer-color': #0f172a,
   ),
   'dark': (
-    'accent-color': #2dd4bf,
-    'hover-over-accent-color': #5eead4,
-    'text-over-accent-color': #052e2b,
+    'accent-color': #8c8375,
+    'hover-over-accent-color': #a69f92,
+    'text-over-accent-color': #f2eee8,
 
-    'bg-primary': #0b1220,
-    'bg-primary-inverse': #0f172a,
-    'bg-secondary': #111a2b,
-    'bg-card': #162134,
+    'bg-primary': #1a1612,
+    'bg-primary-inverse': #f2eee8,
+    'bg-secondary': #2b251f,
+    'bg-card': #2b251f,
 
-    'heading-color': #e6edf7,
-    'text-color': #c6d2e3,
-    'inverse-text-color': #0b1220,
-    'muted-text-color': #91a3bc,
+    'heading-color': #f2eee8,
+    'text-color': #d9d2c5,
+    'inverse-text-color': #1a1612,
+    'muted-text-color': #a69f92,
 
-    'inline-code-color': #f87171,
-    'highlight-color': #facc15,
-    'footer-color': #0a101b,
+    'inline-code-color': #f2eee8,
+    'highlight-color': #5c544a,
+    'footer-color': #1a1612,
   ),
 );
 

@@ -4,88 +4,16 @@
 */
 
 :root {
-  /* Light theme */
-  --jm-light-accent: #0f766e;
-  --jm-light-accent-hover: #0d9488;
-  --jm-light-bg-primary: #f6f8fb;
-  --jm-light-bg-secondary: #e7edf3;
-  --jm-light-bg-card: #ffffff;
-  --jm-light-heading: #102a43;
-  --jm-light-text: #243b53;
-  --jm-light-muted: #5c6f82;
-
   /* Dark theme */
-  --jm-dark-accent: #2dd4bf;
-  --jm-dark-accent-hover: #5eead4;
-  --jm-dark-bg-primary: #0b1220;
-  --jm-dark-bg-secondary: #111a2b;
-  --jm-dark-bg-card: #162134;
-  --jm-dark-heading: #e6edf7;
-  --jm-dark-text: #c6d2e3;
-  --jm-dark-muted: #91a3bc;
-}
-
-/* Light mode */
-body,
-.bg-primary {
-  background-color: var(--jm-light-bg-primary) !important;
-  color: var(--jm-light-text);
-}
-
-.bg-secondary {
-  background-color: var(--jm-light-bg-secondary) !important;
-}
-
-.card,
-.card .card-footer {
-  background: var(--jm-light-bg-card) !important;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--jm-light-heading);
-}
-
-p,
-li,
-span,
-small {
-  color: var(--jm-light-text);
-}
-
-.text-muted,
-.muted,
-.card .text-muted {
-  color: var(--jm-light-muted) !important;
-}
-
-a,
-.nav-link,
-.btn-link {
-  color: var(--jm-light-accent);
-}
-
-a:hover,
-.nav-link:hover,
-.btn-link:hover {
-  color: var(--jm-light-accent-hover);
-}
-
-.btn-info,
-.btn-primary,
-kbd {
-  background-color: var(--jm-light-accent) !important;
-  border-color: var(--jm-light-accent) !important;
-}
-
-.btn-info:hover,
-.btn-primary:hover {
-  background-color: var(--jm-light-accent-hover) !important;
-  border-color: var(--jm-light-accent-hover) !important;
+  --jm-dark-accent: #8c8375;
+  --jm-dark-accent-hover: #a69f92;
+  --jm-dark-bg-primary: #1a1612;
+  --jm-dark-bg-secondary: #2b251f;
+  --jm-dark-bg-card: #2b251f;
+  --jm-dark-heading: #f2eee8;
+  --jm-dark-text: #d9d2c5;
+  --jm-dark-muted: #a69f92;
+  --jm-dark-border: #3d362d;
 }
 
 /* Dark mode */
@@ -103,6 +31,16 @@ html[data-theme='dark'] {
   .card,
   .card .card-footer {
     background: var(--jm-dark-bg-card) !important;
+    border-color: var(--jm-dark-border) !important;
+  }
+
+  .section-holder,
+  .container,
+  .navbar,
+  .top-navbar,
+  .bottom-navbar,
+  hr {
+    border-color: var(--jm-dark-border) !important;
   }
 
   h1,
