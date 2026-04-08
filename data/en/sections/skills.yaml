@@ -13,45 +13,73 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Programming
-  filter: "programming"
-- name: Machine Learning
+- name: Languages
+  filter: "languages"
+- name:  Tools
+  filter: "tools"
+- name: ML/DL Frameworks
   filter: "ml"
 - name: Geospatial
   filter: "geospatial"
-- name: Platforms
-  filter: "platforms"
 - name: Data Science
   filter: "data"
+- name: Platforms
+  filter: "platforms"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Python
+  logo: /images/sections/skills/c++.png
   summary: "Primary language for geospatial AI pipeline development, model training, and production-grade automation."
-  categories: ["programming", "ml", "geospatial", "data"]
+  categories: ["languages"]
 
 - name: C++
   logo: /images/sections/skills/c++.png
   summary: "Used for performance-aware components and systems-level implementations in geospatial processing stacks."
-  categories: ["programming"]
+  categories: ["languages"]
 
-- name: SQL
-  summary: "Used for spatial and tabular data management in analytics and model feedback workflows."
-  categories: ["programming", "data"]
+- name: PostgreSQL
+  logo: /images/sections/skills/postgresql.svg
+  summary: "Relational database management for geospatial vector data, metadata, and model feedback loops with PostGIS extensions."
+  categories: ["languages", "geospatial"]
 
 - name: Bash
+  logo: /images/sections/skills/gnubash.svg
   summary: "Automation of data engineering, preprocessing, and deployment operations in Linux environments."
-  categories: ["programming", "platforms"]
+  categories: ["languages", "platforms"]
+#
+#### ML/DL Frameworks 
 
 - name: PyTorch
-  summary: "Deep learning framework used for semantic segmentation, edge AI optimization, and experimental research pipelines."
+  logo: /images/sections/skills/pytorch.svg
+  summary: "Primary deep learning framework for model development, experimentation, and deployment in geospatial AI workflows."
+  categories: ["ml"]
+
+- name: PyTorch Lightning
+  logo: /images/sections/skills/lightning.svg
+  summary: "High-level framework for structured deep learning research and production pipelines with advanced training features and scalability."
+  categories: ["ml"]  
+
+- name: Detectron2
+  logo: /images/sections/skills/Detectron2-Logo-Horz_.png
+  summary: "Object detection and segmentation framework used for building geospatial object detection pipelines and instance segmentation models."
   categories: ["ml"]
 
 - name: TensorFlow
-  logo: /images/sections/skills/cloud.png
-  summary: "Applied for model prototyping and deployment across remote sensing machine learning workflows."
+  logo: /images/sections/skills/tensorflow.svg
+  summary: "Applied for model prototyping and deployment across remote sensing deep learning workflows."
   categories: ["ml"]
+
+- name: Scikit-learn
+  logo: /images/sections/skills/scikitlearn.svg
+  summary: "Core library for classical machine learning algorithms, data preprocessing, and model evaluation in geospatial analytics."
+  categories: ["ml", "data"]
+
+- name: OpenCV
+  logo: /images/sections/skills/opencv.svg
+  summary: "Computer vision library used for fast image manipulation, preprocessing, and feature engineering in multispectral and SAR modeling workflows."
+  categories: ["ml", "data"]
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
