@@ -18,7 +18,7 @@ degrees:
     url: "https://geoinformatics.ntua.gr/"
     logo: /images/sections/education/NTUA.png
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/tech_college.png
+    darkLogo: /images/sections/education/NTUA_white.png
   grade: #(optional)
     scale: Grade
     achieved: 9.5
@@ -29,7 +29,7 @@ degrees:
     - name: Specialization
       content: Remote Sensing, Data Science, Machine Learning, Deep Learning.
     - name: ECTS Credits
-      content: 120
+      content: 90
 - name: Rural, Surveying and Geoinformatics Engineer (MEng)
   icon: fa-university
   timeframe: 2013-2022
@@ -38,7 +38,7 @@ degrees:
     url: "https://www.survey.ntua.gr/en/"
     logo: /images/sections/education/NTUA.png
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/university.jpg
+    darkLogo: /images/sections/education/NTUA_white.png
   grade: #(optional)
     scale: Grade
     achieved: 7.7

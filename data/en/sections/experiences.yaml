@@ -14,7 +14,7 @@ experiences:
     name: Hellenic Space Center
     url: "https://www.hsc.gov.gr/"
     location: "Athens, Greece"
-    logo: /images/sections/experiences/logohd.png
+    logo: /images/sections/experiences/logohd_black.png
     # Can optionally show a different logo for dark theme
     darkLogo: /images/sections/experiences/logohd.png
     # company overview
@@ -53,7 +53,7 @@ experiences:
     location: Athens, Greece
     logo: /images/sections/experiences/rslab_logo.png
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
+    darkLogo: /images/sections/experiences/rslab_log_white.png
     overview: Research-intensive university with multiple geoinformatics and AI projects in remote sensing.
   positions:
   - designation: AI Research Engineer
@@ -75,12 +75,12 @@ experiences:
 
 - company:
     name: Hellenic Military Geographical Service
-    url: "#"
+    url: "https://www.gys.gr/index_en.html"
     location: Athens, Greece
-    logo: /images/sections/experiences/company2.jpg
+    logo: /images/sections/experiences/gys.png
     overview: Government geospatial authority responsible for national cartographic and aerial orthophotography operations.
   positions:
-  - designation: Geoinformatics Engineer
+  - designation: Software Engineer - Geospatial Intelligence (Military Service) 
     start: Mar 2023
     end: Oct 2023
     responsibilities:
