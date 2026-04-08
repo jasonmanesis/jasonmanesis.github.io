@@ -77,7 +77,8 @@ experiences:
     name: Hellenic Military Geographical Service
     url: "https://www.gys.gr/index_en.html"
     location: Athens, Greece
-    logo: /images/sections/experiences/gys.png
+    logo: /images/sections/experiences/gys_black.svg
+    darkLogo: /images/sections/experiences/gys_white.svg
     overview: Government geospatial authority responsible for national cartographic and aerial orthophotography operations.
   positions:
   - designation: Software Engineer - Geospatial Intelligence (Military Service) 
