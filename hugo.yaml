@@ -24,13 +24,8 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Jason Manesis"
     weight: 1
-  el:
-    languageCode: el
-    languageName: Ελληνικά
-    title: Ιάσονας Μανέσης
-    weight: 2
 # default language for the content
 defaultContentLanguage: en
 
