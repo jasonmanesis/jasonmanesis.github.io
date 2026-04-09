@@ -34,11 +34,6 @@ skills:
   summary: "Primary language for geospatial AI pipeline development, model training, and production-grade automation."
   categories: ["languages"]
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Used for performance-aware components and systems-level implementations in geospatial processing stacks."
-  categories: ["languages"]
-
 - name: PostgreSQL
   logo: /images/sections/skills/postgresql.svg
   summary: "Relational database management for geospatial vector data, metadata, and model feedback loops with PostGIS extensions."
@@ -64,11 +59,6 @@ skills:
 - name: Detectron2
   logo: /images/sections/skills/Detectron2-Logo-Horz_.png
   summary: "Object detection and segmentation framework used for building geospatial object detection pipelines and instance segmentation models."
-  categories: ["ml"]
-
-- name: TensorFlow
-  logo: /images/sections/skills/tensorflow.svg
-  summary: "Applied for model prototyping and deployment across remote sensing deep learning workflows."
   categories: ["ml"]
 
 - name: Scikit-learn
