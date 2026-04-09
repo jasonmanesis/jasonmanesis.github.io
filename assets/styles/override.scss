@@ -33,6 +33,63 @@ hr {
 
 /* Dark mode */
 html[data-theme='dark'] {
+  .top-navbar {
+    background-color: #f7f4f0 !important;
+    color: #3b332a !important;
+
+    .navbar-brand,
+    li a {
+      color: #3b332a !important;
+    }
+
+    #top-navbar-divider {
+      background-color: #635e56 !important;
+    }
+
+    .dropdown-menu {
+      background-color: #ebe6de !important;
+      border: 1px solid rgba(163, 155, 142, 0.25) !important;
+    }
+
+    .dropdown-menu.show a {
+      color: #3b332a !important;
+    }
+
+    .navbar-nav .active,
+    li a:hover {
+      color: #a39b8e !important;
+      border-bottom: 2px solid #a39b8e !important;
+      background: rgba(163, 155, 142, 0.1) !important;
+    }
+
+    .navbar-collapse {
+      &.show,
+      &.collapsing {
+        background-color: #f7f4f0 !important;
+      }
+    }
+
+    &.transparent-navbar {
+      .navbar-brand,
+      li a {
+        color: #3b332a !important;
+      }
+
+      .feather-menu {
+        stroke: #3b332a !important;
+      }
+    }
+  }
+
+  .feather-sidebar,
+  .feather-menu {
+    stroke: #3b332a !important;
+  }
+
+  img.theme-icon {
+    filter: none !important;
+  }
+
   body,
   .bg-primary {
     background-color: var(--jm-dark-bg-primary) !important;
