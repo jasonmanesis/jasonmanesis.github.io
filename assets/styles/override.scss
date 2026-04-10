@@ -34,13 +34,13 @@
   list-style: none;
   display: inline-flex;
   align-items: center;
-  margin-left: 0.35rem;
+  margin-left: 0.25rem;
 }
 
 .jm-theme-switcher {
   display: inline-flex;
-  gap: 0.2rem;
-  padding: 0.12rem;
+  gap: 0.12rem;
+  padding: 0.08rem 0.18rem;
   border-radius: 999px;
   border: 1px solid var(--jm-light-border);
   background-color: #f7f4f0;
@@ -51,16 +51,17 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.55rem;
-  height: 1.55rem;
+  width: 1.28rem;
+  height: 1.28rem;
   padding: 0;
   border-radius: 999px;
   border: 1px solid transparent;
   background: transparent;
 }
 
-.jm-theme-switcher .jm-theme-emoji {
-  font-size: 0.92rem;
+.jm-theme-switcher .jm-theme-icon {
+  width: 12px;
+  height: 12px;
   line-height: 1;
 }
 

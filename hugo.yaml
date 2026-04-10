@@ -68,8 +68,8 @@ params:
   # Theme switcher icons (supports local paths or full URLs)
   themeSwitcher:
     icons:
-      light: icons/sun-svgrepo-com.svg
-      dark: icons/moon-svgrepo-com.svg
+      light: images/site/sun.png
+      dark: images/site/moon.png
     emojis:
       light: "☀️"
       dark: "🌙"

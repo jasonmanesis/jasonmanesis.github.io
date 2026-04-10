@@ -7,8 +7,8 @@
 {{ end }}
 
 {{/* configurable icon paths */}}
-{{ $lightIcon := "icons/sun-svgrepo-com.svg" }}
-{{ $darkIcon := "icons/moon-svgrepo-com.svg" }}
+{{ $lightIcon := "images/site/sun.png" }}
+{{ $darkIcon := "images/site/moon.png" }}
 {{ $lightEmoji := "☀️" }}
 {{ $darkEmoji := "🌙" }}
 {{ with site.Params.themeSwitcher }}
@@ -24,27 +24,37 @@
 
 {{ $lightIconURL := $lightIcon }}
 {{ if not (or (hasPrefix $lightIcon "http://") (hasPrefix $lightIcon "https://")) }}
-  {{ $lightIconURL = $lightIcon | relURL }}
+  {{ $lightRes := resources.Get $lightIcon }}
+  {{ if $lightRes }}
+    {{ $lightIconURL = $lightRes.RelPermalink }}
+  {{ else }}
+    {{ $lightIconURL = $lightIcon | relURL }}
+  {{ end }}
 {{ end }}
 
 {{ $darkIconURL := $darkIcon }}
 {{ if not (or (hasPrefix $darkIcon "http://") (hasPrefix $darkIcon "https://")) }}
-  {{ $darkIconURL = $darkIcon | relURL }}
+  {{ $darkRes := resources.Get $darkIcon }}
+  {{ if $darkRes }}
+    {{ $darkIconURL = $darkRes.RelPermalink }}
+  {{ else }}
+    {{ $darkIconURL = $darkIcon | relURL }}
+  {{ end }}
 {{ end }}
 
 <li class="nav-item jm-theme-switcher-wrapper">
   <div id="themeMenu" class="jm-theme-switcher" aria-label="Theme switcher">
     {{ if $lightEnabled }}
     <a class="nav-link jm-theme-btn" href="#" data-scheme="light" title="Light theme" aria-label="Light theme">
-      <span class="jm-theme-emoji">{{ $lightEmoji }}</span>
-      <img class="jm-theme-icon-map" style="display:none !important;" src="{{ $lightIconURL }}" width="20" alt="Light Theme">
+      <img class="jm-theme-icon" src="{{ $lightIconURL }}" width="14" height="14" alt="Light Theme">
+      <img class="jm-theme-icon-map" style="display:none !important;" src="{{ $lightIconURL }}" width="14" height="14" alt="Light Theme">
     </a>
     {{ end }}
 
     {{ if $darkEnabled }}
     <a class="nav-link jm-theme-btn" href="#" data-scheme="dark" title="Dark theme" aria-label="Dark theme">
-      <span class="jm-theme-emoji">{{ $darkEmoji }}</span>
-      <img class="jm-theme-icon-map" style="display:none !important;" src="{{ $darkIconURL }}" width="20" alt="Dark Theme">
+      <img class="jm-theme-icon" src="{{ $darkIconURL }}" width="14" height="14" alt="Dark Theme">
+      <img class="jm-theme-icon-map" style="display:none !important;" src="{{ $darkIconURL }}" width="14" height="14" alt="Dark Theme">
     </a>
     {{ end }}
   </div>
