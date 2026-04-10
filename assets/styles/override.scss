@@ -39,11 +39,11 @@
 
 .jm-theme-switcher {
   display: inline-flex;
-  gap: 0.12rem;
-  padding: 0.14rem 0.24rem;
+  gap: 0.06rem;
+  padding: 0.08rem 0.12rem;
   border-radius: 999px;
   border: 1px solid var(--jm-light-border);
-  background-color: rgba(247, 244, 240, 0.5);
+  background-color: rgba(247, 244, 240, 0.3);
   box-shadow: none;
 }
 
@@ -66,22 +66,25 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.05rem;
-  height: 2.05rem;
+  width: 1.85rem;
+  height: 1.85rem;
   padding: 0;
   border-radius: 999px;
   border: 1px solid transparent;
   background: transparent;
   overflow: hidden;
+  position: relative;
 }
 
 .jm-theme-switcher .jm-theme-glyph {
   display: inline-block;
-  width: 1.45rem;
-  height: 1.45rem;
+  width: 1.5rem;
+  height: 1.5rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  position: relative;
+  z-index: 1;
 }
 
 /* keep script map images hidden no matter what theme defaults do */
@@ -91,18 +94,34 @@
 }
 
 html[data-theme='light'] .jm-theme-switcher .jm-theme-btn[data-scheme='light'] {
-  background-color: var(--jm-light-filter-active-bg);
-  border-color: var(--jm-light-filter-active-bg);
+  background-color: transparent;
+  border-color: transparent;
+}
+
+html[data-theme='light'] .jm-theme-switcher .jm-theme-btn[data-scheme='light']::after {
+  content: '';
+  position: absolute;
+  inset: 0.12rem;
+  border: 2px solid var(--jm-light-filter-active-bg);
+  border-radius: 999px;
 }
 
 html[data-theme='dark'] .jm-theme-switcher {
   border-color: var(--jm-dark-border);
-  background-color: rgba(43, 37, 31, 0.5);
+  background-color: rgba(43, 37, 31, 0.3);
 }
 
 html[data-theme='dark'] .jm-theme-switcher .jm-theme-btn[data-scheme='dark'] {
-  background-color: var(--jm-dark-filter-active-bg);
-  border-color: var(--jm-dark-filter-active-bg);
+  background-color: transparent;
+  border-color: transparent;
+}
+
+html[data-theme='dark'] .jm-theme-switcher .jm-theme-btn[data-scheme='dark']::after {
+  content: '';
+  position: absolute;
+  inset: 0.12rem;
+  border: 2px solid var(--jm-dark-filter-active-bg);
+  border-radius: 999px;
 }
 
 /* Center switcher in expanded mobile menu and keep breathing room above final line */
