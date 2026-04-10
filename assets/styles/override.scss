@@ -40,10 +40,10 @@
 .jm-theme-switcher {
   display: inline-flex;
   gap: 0.12rem;
-  padding: 0.08rem 0.18rem;
+  padding: 0.14rem 0.24rem;
   border-radius: 999px;
   border: 1px solid var(--jm-light-border);
-  background-color: #f7f4f0;
+  background-color: rgba(247, 244, 240, 0.5);
   box-shadow: none;
 }
 
@@ -66,8 +66,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.28rem;
-  height: 1.28rem;
+  width: 2.05rem;
+  height: 2.05rem;
   padding: 0;
   border-radius: 999px;
   border: 1px solid transparent;
@@ -77,8 +77,8 @@
 
 .jm-theme-switcher .jm-theme-glyph {
   display: inline-block;
-  width: 0.76rem;
-  height: 0.76rem;
+  width: 1.45rem;
+  height: 1.45rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -97,12 +97,28 @@ html[data-theme='light'] .jm-theme-switcher .jm-theme-btn[data-scheme='light'] {
 
 html[data-theme='dark'] .jm-theme-switcher {
   border-color: var(--jm-dark-border);
-  background-color: var(--jm-dark-bg-secondary);
+  background-color: rgba(43, 37, 31, 0.5);
 }
 
 html[data-theme='dark'] .jm-theme-switcher .jm-theme-btn[data-scheme='dark'] {
   background-color: var(--jm-dark-filter-active-bg);
   border-color: var(--jm-dark-filter-active-bg);
+}
+
+/* Center switcher in expanded mobile menu and keep breathing room above final line */
+.top-navbar .navbar-collapse.show .jm-theme-switcher-wrapper,
+.top-navbar .navbar-collapse.collapsing .jm-theme-switcher-wrapper {
+  display: flex !important;
+  justify-content: center;
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 0.35rem;
+}
+
+.top-navbar .navbar-collapse.show .jm-theme-switcher,
+.top-navbar .navbar-collapse.collapsing .jm-theme-switcher {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Skills + Projects + Publications filter bars (light mode) */
