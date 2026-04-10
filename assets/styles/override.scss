@@ -55,6 +55,11 @@
   color: var(--jm-light-filter-active-text) !important;
 }
 
+/* Add breathing room before the Responsibilities heading in experience entries */
+.experiences-section h6.text-heading {
+  margin-top: 0.85rem;
+}
+
 /* Light mode border refinement */
 .card,
 .card .card-footer,
