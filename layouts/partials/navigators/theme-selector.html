@@ -37,18 +37,18 @@
     {{ if $lightEnabled }}
     <a class="nav-link jm-theme-btn" href="#" data-scheme="light" title="Light theme" aria-label="Light theme">
       <span class="jm-theme-emoji">{{ $lightEmoji }}</span>
-      <img class="theme-icon d-none" src="{{ $lightIconURL }}" width="20" alt="Light Theme">
+      <img class="jm-theme-icon-map" style="display:none !important;" src="{{ $lightIconURL }}" width="20" alt="Light Theme">
     </a>
     {{ end }}
 
     {{ if $darkEnabled }}
     <a class="nav-link jm-theme-btn" href="#" data-scheme="dark" title="Dark theme" aria-label="Dark theme">
       <span class="jm-theme-emoji">{{ $darkEmoji }}</span>
-      <img class="theme-icon d-none" src="{{ $darkIconURL }}" width="20" alt="Dark Theme">
+      <img class="jm-theme-icon-map" style="display:none !important;" src="{{ $darkIconURL }}" width="20" alt="Dark Theme">
     </a>
     {{ end }}
   </div>
 
   {{/* kept for script compatibility (icon is updated by Toha theme script) */}}
-  <img id="navbar-theme-icon-svg" class="theme-icon d-none" src="{{ $darkIconURL }}" width="20" alt="Theme Icon">
+  <img id="navbar-theme-icon-svg" class="jm-theme-icon-state" style="display:none !important;" src="{{ $darkIconURL }}" width="20" alt="Theme Icon">
 </li>
