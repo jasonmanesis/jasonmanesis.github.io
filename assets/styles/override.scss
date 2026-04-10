@@ -72,12 +72,22 @@
   border-radius: 999px;
   border: 1px solid transparent;
   background: transparent;
+  overflow: hidden;
 }
 
-.jm-theme-switcher .jm-theme-icon {
-  width: 12px;
-  height: 12px;
-  line-height: 1;
+.jm-theme-switcher .jm-theme-glyph {
+  display: inline-block;
+  width: 0.76rem;
+  height: 0.76rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* keep script map images hidden no matter what theme defaults do */
+.jm-theme-switcher .jm-theme-icon-map,
+.jm-theme-icon-state {
+  display: none !important;
 }
 
 html[data-theme='light'] .jm-theme-switcher .jm-theme-btn[data-scheme='light'] {
