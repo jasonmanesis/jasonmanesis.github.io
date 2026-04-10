@@ -30,40 +30,38 @@
   --jm-dark-tag-border: #a69f92;
 }
 
-/* Always-visible top-left theme switcher */
 .jm-theme-switcher-wrapper {
   list-style: none;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.35rem;
 }
 
 .jm-theme-switcher {
-  position: fixed;
-  top: 0.7rem;
-  left: 0.8rem;
-  z-index: 100000;
   display: inline-flex;
-  gap: 0.35rem;
-  padding: 0.25rem;
+  gap: 0.2rem;
+  padding: 0.12rem;
   border-radius: 999px;
   border: 1px solid var(--jm-light-border);
   background-color: #f7f4f0;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  box-shadow: none;
 }
 
 .jm-theme-switcher .jm-theme-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2rem;
-  height: 2rem;
+  width: 1.55rem;
+  height: 1.55rem;
   padding: 0;
   border-radius: 999px;
   border: 1px solid transparent;
   background: transparent;
 }
 
-.jm-theme-switcher .jm-theme-btn img {
-  width: 18px;
-  height: 18px;
+.jm-theme-switcher .jm-theme-emoji {
+  font-size: 0.92rem;
+  line-height: 1;
 }
 
 html[data-theme='light'] .jm-theme-switcher .jm-theme-btn[data-scheme='light'] {
@@ -79,14 +77,6 @@ html[data-theme='dark'] .jm-theme-switcher {
 html[data-theme='dark'] .jm-theme-switcher .jm-theme-btn[data-scheme='dark'] {
   background-color: var(--jm-dark-filter-active-bg);
   border-color: var(--jm-dark-filter-active-bg);
-}
-
-@media (max-width: 768px) {
-  .jm-theme-switcher {
-    top: auto;
-    bottom: 0.85rem;
-    left: 0.85rem;
-  }
 }
 
 /* Skills + Projects + Publications filter bars (light mode) */

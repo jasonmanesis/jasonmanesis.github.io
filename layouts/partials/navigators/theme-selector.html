@@ -9,10 +9,16 @@
 {{/* configurable icon paths */}}
 {{ $lightIcon := "icons/sun-svgrepo-com.svg" }}
 {{ $darkIcon := "icons/moon-svgrepo-com.svg" }}
+{{ $lightEmoji := "☀️" }}
+{{ $darkEmoji := "🌙" }}
 {{ with site.Params.themeSwitcher }}
   {{ with .icons }}
     {{ with .light }}{{ $lightIcon = . }}{{ end }}
     {{ with .dark }}{{ $darkIcon = . }}{{ end }}
+  {{ end }}
+  {{ with .emojis }}
+    {{ with .light }}{{ $lightEmoji = . }}{{ end }}
+    {{ with .dark }}{{ $darkEmoji = . }}{{ end }}
   {{ end }}
 {{ end }}
 
@@ -30,13 +36,15 @@
   <div id="themeMenu" class="jm-theme-switcher" aria-label="Theme switcher">
     {{ if $lightEnabled }}
     <a class="nav-link jm-theme-btn" href="#" data-scheme="light" title="Light theme" aria-label="Light theme">
-      <img class="theme-icon" src="{{ $lightIconURL }}" width="20" alt="Light Theme">
+      <span class="jm-theme-emoji">{{ $lightEmoji }}</span>
+      <img class="theme-icon d-none" src="{{ $lightIconURL }}" width="20" alt="Light Theme">
     </a>
     {{ end }}
 
     {{ if $darkEnabled }}
     <a class="nav-link jm-theme-btn" href="#" data-scheme="dark" title="Dark theme" aria-label="Dark theme">
-      <img class="theme-icon" src="{{ $darkIconURL }}" width="20" alt="Dark Theme">
+      <span class="jm-theme-emoji">{{ $darkEmoji }}</span>
+      <img class="theme-icon d-none" src="{{ $darkIconURL }}" width="20" alt="Dark Theme">
     </a>
     {{ end }}
   </div>
