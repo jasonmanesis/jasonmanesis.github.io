@@ -12,7 +12,7 @@
   --jm-light-filter-active-text: #f7f4f0;
 
   /* Dark theme */
-  --jm-dark-accent: #d1cdc275;
+  --jm-dark-accent: #d1cdc2;
   --jm-dark-accent-hover: #a69f92;
   --jm-dark-bg-primary: #1a1612;
   --jm-dark-bg-secondary: #2b251f;
@@ -25,6 +25,9 @@
   --jm-dark-filter-text: #d9d2c5;
   --jm-dark-filter-active-bg: #8c8375;
   --jm-dark-filter-active-text: #f2eee8;
+  --jm-dark-tag-bg: #5c544a;
+  --jm-dark-tag-text: #f2eee8;
+  --jm-dark-tag-border: #a69f92;
 }
 
 /* Skills + Projects + Publications filter bars (light mode) */
@@ -100,6 +103,21 @@ html[data-theme='dark'] {
     background-color: var(--jm-dark-filter-active-bg) !important;
     border-color: var(--jm-dark-filter-active-bg) !important;
     color: var(--jm-dark-filter-active-text) !important;
+  }
+
+  /* Project + Publication keyword badges */
+  .project-card-footer .btn.badge.btn-info,
+  .publications-section .tags .btn.badge.btn-info {
+    background-color: var(--jm-dark-tag-bg) !important;
+    border-color: var(--jm-dark-tag-border) !important;
+    color: var(--jm-dark-tag-text) !important;
+  }
+
+  .project-card-footer .btn.badge.btn-info:hover,
+  .publications-section .tags .btn.badge.btn-info:hover {
+    background-color: var(--jm-dark-accent-hover) !important;
+    border-color: var(--jm-dark-accent-hover) !important;
+    color: var(--jm-dark-tag-text) !important;
   }
 
   body,
