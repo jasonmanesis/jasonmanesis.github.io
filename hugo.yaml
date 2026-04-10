@@ -65,6 +65,12 @@ params:
     inverted: /images/site/inverted-logo.png
     favicon: /images/site/favicon.png
 
+  # Theme switcher icons (supports local paths or full URLs)
+  themeSwitcher:
+    icons:
+      light: icons/sun-svgrepo-com.svg
+      dark: icons/moon-svgrepo-com.svg
+
   # GitHub repo of your site
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
   # Default branch of your Git repo

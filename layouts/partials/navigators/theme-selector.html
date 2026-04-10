@@ -1,0 +1,46 @@
+{{/* variables for enabling/disabling various features */}}
+{{ $darkEnabled := true }}
+{{ $lightEnabled := true }}
+{{ if site.Params.features.theme.enable }}
+  {{ $darkEnabled = site.Params.features.theme.services.dark | default true }}
+  {{ $lightEnabled = site.Params.features.theme.services.light | default true }}
+{{ end }}
+
+{{/* configurable icon paths */}}
+{{ $lightIcon := "icons/sun-svgrepo-com.svg" }}
+{{ $darkIcon := "icons/moon-svgrepo-com.svg" }}
+{{ with site.Params.themeSwitcher }}
+  {{ with .icons }}
+    {{ with .light }}{{ $lightIcon = . }}{{ end }}
+    {{ with .dark }}{{ $darkIcon = . }}{{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $lightIconURL := $lightIcon }}
+{{ if not (or (hasPrefix $lightIcon "http://") (hasPrefix $lightIcon "https://")) }}
+  {{ $lightIconURL = $lightIcon | relURL }}
+{{ end }}
+
+{{ $darkIconURL := $darkIcon }}
+{{ if not (or (hasPrefix $darkIcon "http://") (hasPrefix $darkIcon "https://")) }}
+  {{ $darkIconURL = $darkIcon | relURL }}
+{{ end }}
+
+<li class="nav-item jm-theme-switcher-wrapper">
+  <div id="themeMenu" class="jm-theme-switcher" aria-label="Theme switcher">
+    {{ if $lightEnabled }}
+    <a class="nav-link jm-theme-btn" href="#" data-scheme="light" title="Light theme" aria-label="Light theme">
+      <img class="theme-icon" src="{{ $lightIconURL }}" width="20" alt="Light Theme">
+    </a>
+    {{ end }}
+
+    {{ if $darkEnabled }}
+    <a class="nav-link jm-theme-btn" href="#" data-scheme="dark" title="Dark theme" aria-label="Dark theme">
+      <img class="theme-icon" src="{{ $darkIconURL }}" width="20" alt="Dark Theme">
+    </a>
+    {{ end }}
+  </div>
+
+  {{/* kept for script compatibility (icon is updated by Toha theme script) */}}
+  <img id="navbar-theme-icon-svg" class="theme-icon d-none" src="{{ $darkIconURL }}" width="20" alt="Theme Icon">
+</li>
