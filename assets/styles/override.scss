@@ -40,11 +40,13 @@
 .jm-theme-switcher {
   display: inline-flex;
   gap: 0.06rem;
-  padding: 0.08rem 0.12rem;
+  height: 20px;
+  padding: 1px 6px;
   border-radius: 999px;
   border: 1px solid var(--jm-light-border);
   background-color: rgba(247, 244, 240, 0.3);
   box-shadow: none;
+  box-sizing: border-box;
 }
 
 /* Prevent Toha's built-in #themeMenu sizing from shrinking/stretching this custom switcher */
@@ -66,8 +68,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.85rem;
-  height: 1.85rem;
+  width: 14px;
+  height: 14px;
   padding: 0;
   border-radius: 999px;
   border: 1px solid transparent;
@@ -78,8 +80,8 @@
 
 .jm-theme-switcher .jm-theme-glyph {
   display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 11px;
+  height: 11px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -101,8 +103,8 @@ html[data-theme='light'] .jm-theme-switcher .jm-theme-btn[data-scheme='light'] {
 html[data-theme='light'] .jm-theme-switcher .jm-theme-btn[data-scheme='light']::after {
   content: '';
   position: absolute;
-  inset: 0.12rem;
-  border: 2px solid var(--jm-light-filter-active-bg);
+  inset: -1px;
+  border: 1px solid var(--jm-light-filter-active-bg);
   border-radius: 999px;
 }
 
@@ -119,8 +121,8 @@ html[data-theme='dark'] .jm-theme-switcher .jm-theme-btn[data-scheme='dark'] {
 html[data-theme='dark'] .jm-theme-switcher .jm-theme-btn[data-scheme='dark']::after {
   content: '';
   position: absolute;
-  inset: 0.12rem;
-  border: 2px solid var(--jm-dark-filter-active-bg);
+  inset: -1px;
+  border: 1px solid var(--jm-dark-filter-active-bg);
   border-radius: 999px;
 }
 
