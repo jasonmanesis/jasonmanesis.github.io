@@ -17,6 +17,10 @@
   --jm-dark-text: #d9d2c5;
   --jm-dark-muted: #a69f92;
   --jm-dark-border: #8c8375;
+  --jm-dark-filter-bg: #2b251f;
+  --jm-dark-filter-text: #d9d2c5;
+  --jm-dark-filter-active-bg: #8c8375;
+  --jm-dark-filter-active-text: #f2eee8;
 }
 
 /* Light mode border refinement */
@@ -33,6 +37,30 @@ hr {
 
 /* Dark mode */
 html[data-theme='dark'] {
+  /* Skills + Projects filter bars */
+  #skill-filter-buttons .skill-filtr-control,
+  [id^='project-filter-buttons-'] .project-filtr-control {
+    background-color: var(--jm-dark-filter-bg) !important;
+    border-color: var(--jm-dark-border) !important;
+    color: var(--jm-dark-filter-text) !important;
+  }
+
+  #skill-filter-buttons .skill-filtr-control:hover,
+  [id^='project-filter-buttons-'] .project-filtr-control:hover {
+    background-color: var(--jm-dark-accent-hover) !important;
+    border-color: var(--jm-dark-accent-hover) !important;
+    color: var(--jm-dark-filter-active-text) !important;
+  }
+
+  #skill-filter-buttons .skill-filtr-control.active,
+  #skill-filter-buttons .skill-filtr-control.filtr-active,
+  [id^='project-filter-buttons-'] .project-filtr-control.active,
+  [id^='project-filter-buttons-'] .project-filtr-control.filtr-active {
+    background-color: var(--jm-dark-filter-active-bg) !important;
+    border-color: var(--jm-dark-filter-active-bg) !important;
+    color: var(--jm-dark-filter-active-text) !important;
+  }
+
   body,
   .bg-primary {
     background-color: var(--jm-dark-bg-primary) !important;
