@@ -47,14 +47,14 @@
     {{ if $lightEnabled }}
     <a class="nav-link jm-theme-btn" href="#" data-scheme="light" title="Light theme" aria-label="Light theme">
       <img class="jm-theme-icon-map" style="display:none !important;" src="{{ $lightIconURL }}" width="14" height="14" alt="Light Theme">
-      <span class="jm-theme-glyph" style="background-image:url('{{ $lightIconURL }}');" aria-hidden="true"></span>
+      <img class="jm-theme-glyph-img" src="{{ $lightIconURL }}" width="11" height="11" alt="">
     </a>
     {{ end }}
 
     {{ if $darkEnabled }}
     <a class="nav-link jm-theme-btn" href="#" data-scheme="dark" title="Dark theme" aria-label="Dark theme">
       <img class="jm-theme-icon-map" style="display:none !important;" src="{{ $darkIconURL }}" width="14" height="14" alt="Dark Theme">
-      <span class="jm-theme-glyph" style="background-image:url('{{ $darkIconURL }}');" aria-hidden="true"></span>
+      <img class="jm-theme-glyph-img" src="{{ $darkIconURL }}" width="11" height="11" alt="">
     </a>
     {{ end }}
   </div>
