@@ -63,6 +63,18 @@
   margin-top: 0.85rem;
 }
 
+/* Match light-theme hero intro colors to dark theme */
+.home img {
+  background-color: var(--jm-dark-bg-secondary) !important;
+  border: 1px solid var(--jm-dark-border) !important;
+}
+
+.home .greeting,
+.home .greeting-subtitle,
+.home .typing-carousel {
+  color: var(--jm-dark-heading) !important;
+}
+
 /* Light mode border refinement */
 .card,
 .card .card-footer,
