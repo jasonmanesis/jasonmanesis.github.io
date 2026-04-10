@@ -47,6 +47,21 @@
   box-shadow: none;
 }
 
+/* Prevent Toha's built-in #themeMenu sizing from shrinking/stretching this custom switcher */
+#top-navbar #themeMenu.jm-theme-switcher,
+.top-navbar #themeMenu.jm-theme-switcher {
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: -moz-fit-content !important;
+  max-width: fit-content !important;
+}
+
+.top-navbar .navbar-collapse.show #themeMenu.jm-theme-switcher,
+.top-navbar .navbar-collapse.collapsing #themeMenu.jm-theme-switcher {
+  width: auto !important;
+  min-width: 0 !important;
+}
+
 .jm-theme-switcher .jm-theme-btn {
   display: inline-flex;
   align-items: center;
