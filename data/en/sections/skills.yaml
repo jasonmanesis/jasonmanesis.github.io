@@ -15,7 +15,7 @@ buttons:
   filter: "all"
 - name: Languages
   filter: "languages"
-- name:  Tools
+- name: Tools
   filter: "tools"
 - name: ML/DL Frameworks
   filter: "ml"

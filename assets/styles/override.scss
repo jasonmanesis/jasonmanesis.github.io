@@ -8,6 +8,7 @@
   --jm-light-border: #d1cdc2;
   --jm-light-filter-bg: #ebe6de;
   --jm-light-filter-text: #3b332a;
+  --jm-light-filter-hover-bg: #b7afa2;
   --jm-light-filter-active-bg: #a39b8e;
   --jm-light-filter-active-text: #f7f4f0;
 
@@ -258,8 +259,8 @@ html[data-theme='dark'] .top-navbar .navbar-collapse.collapsing .jm-mobile-menu-
 #skill-filter-buttons .skill-filtr-control:hover,
 [id^='project-filter-buttons-'] .project-filtr-control:hover,
 #publication-filter-buttons .pub-filtr-control:hover {
-  background-color: var(--jm-dark-accent-hover) !important;
-  border-color: var(--jm-dark-accent-hover) !important;
+  background-color: var(--jm-light-filter-hover-bg) !important;
+  border-color: var(--jm-light-filter-hover-bg) !important;
   color: var(--jm-light-filter-active-text) !important;
 }
 
