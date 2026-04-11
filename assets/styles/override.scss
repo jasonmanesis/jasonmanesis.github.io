@@ -576,3 +576,72 @@ body.jm-debug-map #publication-filter-buttons {
   outline: 2px solid rgba(220, 53, 69, 0.7);
   outline-offset: 2px;
 }
+
+/* Component-level map overlays */
+body.jm-debug-map .top-navbar,
+body.jm-debug-map .section-holder,
+body.jm-debug-map .card,
+body.jm-debug-map .btn,
+body.jm-debug-map .badge,
+body.jm-debug-map .experiences-section .timeline,
+body.jm-debug-map .education-section .timeline,
+body.jm-debug-map .experiences-section .circle,
+body.jm-debug-map .education-section .circle,
+body.jm-debug-map .experiences-section .vertical-line,
+body.jm-debug-map .education-section .vertical-line,
+body.jm-debug-map .experiences-section .horizontal-line,
+body.jm-debug-map .education-section .horizontal-line {
+  outline: 1px dashed rgba(255, 127, 17, 0.65);
+  outline-offset: 1px;
+}
+
+body.jm-debug-map .skills-section .filtr-skills,
+body.jm-debug-map .projects-section .filtr-projects,
+body.jm-debug-map .publications-section .filtr-publications,
+body.jm-debug-map .experiences-section .timeline,
+body.jm-debug-map .education-section .timeline,
+body.jm-debug-map .footer .container {
+  position: relative;
+}
+
+body.jm-debug-map .skills-section .filtr-skills::before,
+body.jm-debug-map .projects-section .filtr-projects::before,
+body.jm-debug-map .publications-section .filtr-publications::before,
+body.jm-debug-map .experiences-section .timeline::before,
+body.jm-debug-map .education-section .timeline::before,
+body.jm-debug-map .footer .container::before {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  z-index: 11;
+  padding: 0.1rem 0.35rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+  color: #fff;
+  background: rgba(220, 53, 69, 0.9);
+  border-radius: 0.2rem;
+}
+
+body.jm-debug-map .skills-section .filtr-skills::before {
+  content: 'skills grid';
+}
+
+body.jm-debug-map .projects-section .filtr-projects::before {
+  content: 'projects grid';
+}
+
+body.jm-debug-map .publications-section .filtr-publications::before {
+  content: 'publications grid';
+}
+
+body.jm-debug-map .experiences-section .timeline::before {
+  content: 'experience timeline';
+}
+
+body.jm-debug-map .education-section .timeline::before {
+  content: 'education timeline';
+}
+
+body.jm-debug-map .footer .container::before {
+  content: 'footer content';
+}

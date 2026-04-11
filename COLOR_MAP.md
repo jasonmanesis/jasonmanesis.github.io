@@ -168,6 +168,7 @@ What this shows:
 - Dashed outlines around: skills, experiences, education, projects, publications, footer.
 - Small top-left labels with the exact section class name.
 - Extra outline around filter button groups (`skill`, `project`, `publication` filters).
+- Component overlays for cards, buttons, timeline nodes/lines, and key content grids.
 
 Turn off by running the same command again.
 
