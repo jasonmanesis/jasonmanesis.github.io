@@ -426,3 +426,14 @@ html[data-theme='dark'] {
     border-color: var(--jm-dark-accent-hover) !important;
   }
 }
+
+/* Final override: keep top navbar divider dark-border at 30% opacity in all themes */
+#top-navbar-divider,
+.top-navbar-divider,
+hr.top-navbar-divider,
+.top-navbar .top-navbar-divider {
+  border-color: rgba(var(--jm-dark-border-rgb), 0.3) !important;
+  border-top-color: rgba(var(--jm-dark-border-rgb), 0.3) !important;
+  border-bottom-color: rgba(var(--jm-dark-border-rgb), 0.3) !important;
+  background-color: rgba(var(--jm-dark-border-rgb), 0.3) !important;
+}
