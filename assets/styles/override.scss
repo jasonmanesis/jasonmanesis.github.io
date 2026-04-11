@@ -22,7 +22,7 @@
   --jm-dark-muted: #a69f92;
   --jm-dark-border: #8c8375;
   --jm-dark-border-rgb: 140, 131, 117;
-  --jm-dark-filter-bg: #8c8375;
+  --jm-dark-filter-bg: #8c8375a1;
   --jm-dark-filter-text: #f7f4f0;
   --jm-dark-filter-active-bg: #8c8375;
   --jm-dark-filter-active-text: #f2eee8;
@@ -236,12 +236,23 @@ html[data-theme='dark'] .top-navbar .navbar-collapse.collapsing .jm-mobile-menu-
 }
 
 /* Skills + Projects + Publications filter bars (light mode) */
+#skill-filter-buttons,
+[id^='project-filter-buttons-'],
+#publication-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
 #skill-filter-buttons .skill-filtr-control,
 [id^='project-filter-buttons-'] .project-filtr-control,
 #publication-filter-buttons .pub-filtr-control {
   background-color: var(--jm-light-filter-bg) !important;
-  border-color: var(--jm-light-border) !important;
+  border-color: transparent !important;
+  border-width: 1px !important;
   color: var(--jm-light-filter-text) !important;
+  box-shadow: none !important;
+  border-radius: 0.75rem !important;
 }
 
 #skill-filter-buttons .skill-filtr-control:hover,
@@ -259,8 +270,29 @@ html[data-theme='dark'] .top-navbar .navbar-collapse.collapsing .jm-mobile-menu-
 #publication-filter-buttons .pub-filtr-control.active,
 #publication-filter-buttons .pub-filtr-control.filtr-active {
   background-color: var(--jm-light-filter-active-bg) !important;
-  border-color: var(--jm-light-filter-active-bg) !important;
+  border-color: transparent !important;
   color: var(--jm-light-filter-active-text) !important;
+}
+
+@media (max-width: 767.98px) {
+  #skill-filter-buttons,
+  [id^='project-filter-buttons-'],
+  #publication-filter-buttons {
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  #skill-filter-buttons .skill-filtr-control,
+  [id^='project-filter-buttons-'] .project-filtr-control,
+  #publication-filter-buttons .pub-filtr-control {
+    width: auto !important;
+    max-width: 100%;
+    flex: 0 0 auto;
+    padding: 0.5rem 0.9rem !important;
+    line-height: 1.2;
+    white-space: normal;
+    text-align: center;
+  }
 }
 
 /* Add breathing room before the Responsibilities heading in experience entries */
@@ -316,7 +348,7 @@ html[data-theme='dark'] {
   [id^='project-filter-buttons-'] .project-filtr-control,
   #publication-filter-buttons .pub-filtr-control {
     background-color: var(--jm-dark-filter-bg) !important;
-    border-color: var(--jm-dark-border) !important;
+    border-color: transparent !important;
     color: var(--jm-dark-filter-text) !important;
   }
 
@@ -335,7 +367,7 @@ html[data-theme='dark'] {
   #publication-filter-buttons .pub-filtr-control.active,
   #publication-filter-buttons .pub-filtr-control.filtr-active {
     background-color: var(--jm-dark-filter-active-bg) !important;
-    border-color: var(--jm-dark-filter-active-bg) !important;
+    border-color: transparent !important;
     color: var(--jm-dark-filter-active-text) !important;
   }
 
