@@ -21,6 +21,7 @@
   --jm-dark-text: #d9d2c5;
   --jm-dark-muted: #a69f92;
   --jm-dark-border: #8c8375;
+  --jm-dark-border-rgb: 140, 131, 117;
   --jm-dark-filter-bg: #8c8375;
   --jm-dark-filter-text: #f7f4f0;
   --jm-dark-filter-active-bg: #8c8375;
@@ -300,6 +301,12 @@ html[data-theme='dark'] .top-navbar .navbar-collapse.collapsing .jm-mobile-menu-
 .bottom-navbar,
 hr {
   border-color: var(--jm-light-border) !important;
+}
+
+/* Keep navbar divider color fixed to dark palette with 30% transparency */
+.top-navbar-divider {
+  border-color: rgba(var(--jm-dark-border-rgb), 0.3) !important;
+  background-color: rgba(var(--jm-dark-border-rgb), 0.3) !important;
 }
 
 /* Dark mode */
