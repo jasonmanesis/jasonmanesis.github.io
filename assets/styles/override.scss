@@ -258,8 +258,8 @@ html[data-theme='dark'] .top-navbar .navbar-collapse.collapsing .jm-mobile-menu-
 #skill-filter-buttons .skill-filtr-control:hover,
 [id^='project-filter-buttons-'] .project-filtr-control:hover,
 #publication-filter-buttons .pub-filtr-control:hover {
-  background-color: var(--jm-dark-accent-hover) !important;
-  border-color: var(--jm-dark-accent-hover) !important;
+  background-color: var(--jm-light-filter-active-bg) !important;
+  border-color: var(--jm-light-filter-active-bg) !important;
   color: var(--jm-light-filter-active-text) !important;
 }
 
@@ -300,10 +300,10 @@ html[data-theme='dark'] .top-navbar .navbar-collapse.collapsing .jm-mobile-menu-
   margin-top: 0.85rem;
 }
 
-/* Match light-theme hero intro colors to dark theme */
-.home img {
-  background-color: var(--jm-dark-bg-secondary) !important;
-  border: 1px solid var(--jm-dark-border) !important;
+/* Light-theme hero colors */
+html[data-theme='light'] .home img {
+  background-color: var(--jm-light-filter-bg) !important;
+  border: 1px solid var(--jm-light-border) !important;
 }
 
 /* Hero author image: remove bright outer halo and increase size a bit */
@@ -312,14 +312,31 @@ html[data-theme='dark'] .top-navbar .navbar-collapse.collapsing .jm-mobile-menu-
 .home .rounded-circle[alt='Author Image'] {
   width: 178px !important;
   height: 178px !important;
-  border: 2px solid var(--jm-dark-border) !important;
   box-shadow: none !important;
   outline: none !important;
 }
 
-.home .greeting,
-.home .greeting-subtitle,
-.home .typing-carousel {
+html[data-theme='light'] .home img[alt='Author Image'],
+html[data-theme='light'] .home img[alt='Author Image'][src],
+html[data-theme='light'] .home .rounded-circle[alt='Author Image'] {
+  border: 2px solid var(--jm-light-border) !important;
+}
+
+html[data-theme='dark'] .home img[alt='Author Image'],
+html[data-theme='dark'] .home img[alt='Author Image'][src],
+html[data-theme='dark'] .home .rounded-circle[alt='Author Image'] {
+  border: 2px solid var(--jm-dark-border) !important;
+}
+
+html[data-theme='light'] .home .greeting,
+html[data-theme='light'] .home .greeting-subtitle,
+html[data-theme='light'] .home .typing-carousel {
+  color: var(--jm-light-filter-text) !important;
+}
+
+html[data-theme='dark'] .home .greeting,
+html[data-theme='dark'] .home .greeting-subtitle,
+html[data-theme='dark'] .home .typing-carousel {
   color: var(--jm-dark-heading) !important;
 }
 
