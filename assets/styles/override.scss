@@ -437,3 +437,11 @@ hr.top-navbar-divider,
   border-bottom-color: rgba(var(--jm-dark-border-rgb), 0.3) !important;
   background-color: rgba(var(--jm-dark-border-rgb), 0.3) !important;
 }
+
+/* Match hero bouncing arrow color to divider (dark border at 30% opacity) */
+.home .arrow,
+.home .arrow a,
+.home .arrow i,
+.home .arrow .bounce {
+  color: rgba(var(--jm-dark-border-rgb), 0.3) !important;
+}
