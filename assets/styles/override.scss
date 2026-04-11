@@ -47,6 +47,12 @@ canvas {
   height: auto;
 }
 
+/* Footer branding: keep Hugo logo visually balanced */
+.footer [href*='gohugo.io'] img {
+  width: auto !important;
+  max-height: 56px !important;
+}
+
 /* Allow long tokens/URLs to wrap instead of expanding layout width */
 .section-holder,
 .card,
@@ -263,6 +269,17 @@ html[data-theme='dark'] .top-navbar .navbar-collapse.collapsing .jm-mobile-menu-
 .home img {
   background-color: var(--jm-dark-bg-secondary) !important;
   border: 1px solid var(--jm-dark-border) !important;
+}
+
+/* Hero author image: remove bright outer halo and increase size a bit */
+.home img[alt='Author Image'],
+.home img[alt='Author Image'][src],
+.home .rounded-circle[alt='Author Image'] {
+  width: 178px !important;
+  height: 178px !important;
+  border: 2px solid var(--jm-dark-border) !important;
+  box-shadow: none !important;
+  outline: none !important;
 }
 
 .home .greeting,
