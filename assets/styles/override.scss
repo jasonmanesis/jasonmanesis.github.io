@@ -30,6 +30,38 @@
   --jm-dark-tag-border: #a69f92;
 }
 
+/* Prevent horizontal page blowout from any long unbroken content */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Keep media constrained to their containers */
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Allow long tokens/URLs to wrap instead of expanding layout width */
+.section-holder,
+.card,
+.card-body,
+.card-text,
+.about-section p,
+.about-section li,
+.publications-section p,
+.publications-section li,
+.projects-section p,
+.projects-section li {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 /* Keep About/Experiences/Education aligned with other section containers */
 @media (min-width: 992px) {
   .about-section,
