@@ -72,3 +72,45 @@
   {{/* kept for script compatibility (icon is updated by Toha theme script) */}}
   <img id="navbar-theme-icon-svg" class="jm-theme-icon-state" style="display:none !important;" src="{{ $darkIconURL }}" width="20" alt="Theme Icon">
 </li>
+
+<script>
+  (function () {
+    if (window.__jmMobileMenuAutoCloseInit) return;
+    window.__jmMobileMenuAutoCloseInit = true;
+
+    const collapseEl = document.getElementById('top-nav-items');
+    if (!collapseEl) return;
+
+    const toggler = document.querySelector("[data-bs-target='#top-nav-items'], [href='#top-nav-items']");
+
+    function isOpen() {
+      return collapseEl.classList.contains('show');
+    }
+
+    function closeMenu() {
+      if (!isOpen()) return;
+      if (window.bootstrap && window.bootstrap.Collapse) {
+        window.bootstrap.Collapse.getOrCreateInstance(collapseEl).hide();
+        return;
+      }
+      collapseEl.classList.remove('show');
+    }
+
+    // Close on tap/click anywhere outside the expanded dropdown.
+    document.addEventListener('pointerdown', function (event) {
+      if (!isOpen()) return;
+      const target = event.target;
+      if (collapseEl.contains(target)) return;
+      if (toggler && toggler.contains(target)) return;
+      closeMenu();
+    }, true);
+
+    // Close after tapping any link in the expanded menu.
+    collapseEl.addEventListener('click', function (event) {
+      if (!isOpen()) return;
+      const link = event.target.closest('a');
+      if (!link) return;
+      closeMenu();
+    });
+  })();
+</script>
