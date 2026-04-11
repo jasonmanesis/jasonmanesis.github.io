@@ -30,6 +30,29 @@
   --jm-dark-tag-border: #a69f92;
 }
 
+/* Keep About/Experiences/Education aligned with other section containers */
+@media (min-width: 992px) {
+  .about-section,
+  .experiences-section > .container,
+  .education-section > .container,
+  .skills-section > .container,
+  .projects-section > .container,
+  .publications-section > .container,
+  .recent-posts-section > .container,
+  .accomplishments-section > .container,
+  .achievements-section > .container,
+  .footer .container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-section {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+}
+
 .jm-theme-icons-wrapper {
   list-style: none;
   display: inline-flex;

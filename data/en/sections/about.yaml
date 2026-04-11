@@ -53,7 +53,7 @@ resourceLinks:
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
-badges: []
+badges: null
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
