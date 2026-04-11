@@ -42,22 +42,32 @@
   {{ end }}
 {{ end }}
 
-<li class="nav-item jm-theme-switcher-wrapper">
-  <div id="themeMenu" class="jm-theme-switcher" aria-label="Theme switcher">
+<li class="nav-item jm-theme-icons-wrapper">
+  <div id="themeMenu" class="jm-theme-icons" aria-label="Theme switcher">
     {{ if $lightEnabled }}
-    <a class="nav-link jm-theme-btn" href="#" data-scheme="light" title="Light theme" aria-label="Light theme">
+    <a class="nav-link jm-theme-icon-btn" href="#" data-scheme="light" title="Light theme" aria-label="Light theme">
       <img class="jm-theme-icon-map" style="display:none !important;" src="{{ $lightIconURL }}" width="14" height="14" alt="Light Theme">
       <img class="jm-theme-glyph-img" src="{{ $lightIconURL }}" width="11" height="11" alt="">
     </a>
     {{ end }}
 
     {{ if $darkEnabled }}
-    <a class="nav-link jm-theme-btn" href="#" data-scheme="dark" title="Dark theme" aria-label="Dark theme">
+    <a class="nav-link jm-theme-icon-btn" href="#" data-scheme="dark" title="Dark theme" aria-label="Dark theme">
       <img class="jm-theme-icon-map" style="display:none !important;" src="{{ $darkIconURL }}" width="14" height="14" alt="Dark Theme">
       <img class="jm-theme-glyph-img" src="{{ $darkIconURL }}" width="11" height="11" alt="">
     </a>
     {{ end }}
   </div>
+
+  <button
+    type="button"
+    class="jm-mobile-menu-close"
+    data-bs-toggle="collapse"
+    data-bs-target="#top-nav-items"
+    aria-label="Close menu"
+  >
+    ×
+  </button>
 
   {{/* kept for script compatibility (icon is updated by Toha theme script) */}}
   <img id="navbar-theme-icon-svg" class="jm-theme-icon-state" style="display:none !important;" src="{{ $darkIconURL }}" width="20" alt="Theme Icon">
