@@ -142,3 +142,30 @@ When a color looks wrong:
 2. Find it in Component Map above.
 3. Change token in `assets/styles/variables.scss` first.
 4. Use `assets/styles/override.scss` only if component still does not follow token change.
+
+## Easier Than Inspect: Debug Map Mode
+
+Use this when you want to quickly identify which visual block you are looking at.
+
+1. Open your site.
+2. Open browser console.
+3. Run:
+
+```js
+document.body.classList.toggle('jm-debug-map')
+```
+
+What this shows:
+
+- Dashed outlines around: skills, experiences, education, projects, publications, footer.
+- Small top-left labels with the exact section class name.
+- Extra outline around filter button groups (`skill`, `project`, `publication` filters).
+
+Turn off by running the same command again.
+
+Optional force-on / force-off:
+
+```js
+document.body.classList.add('jm-debug-map')
+document.body.classList.remove('jm-debug-map')
+```
