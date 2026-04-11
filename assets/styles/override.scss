@@ -481,9 +481,42 @@ hr.top-navbar-divider,
 
 /*
   Debug map mode (off by default).
-  Toggle from browser console:
-  document.body.classList.toggle('jm-debug-map')
+  Toggle via the "Map" button injected by assets/js/debug-map-toggle.js
 */
+body .jm-debug-map-toggle {
+  position: fixed;
+  left: 0.85rem;
+  bottom: 0.85rem;
+  z-index: 100002;
+  border: 1px solid rgba(var(--jm-dark-border-rgb), 0.45);
+  background: rgba(247, 244, 240, 0.88);
+  color: var(--jm-light-filter-text);
+  border-radius: 999px;
+  padding: 0.26rem 0.62rem;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+html[data-theme='dark'] body .jm-debug-map-toggle {
+  background: rgba(43, 37, 31, 0.9);
+  color: var(--jm-dark-text);
+  border-color: rgba(var(--jm-dark-border-rgb), 0.7);
+}
+
+body .jm-debug-map-toggle.is-active {
+  background: rgba(24, 114, 233, 0.92);
+  border-color: rgba(24, 114, 233, 1);
+  color: #fff;
+}
+
+@media (max-width: 767.98px) {
+  body .jm-debug-map-toggle {
+    left: 0.65rem;
+    bottom: 0.65rem;
+  }
+}
+
 body.jm-debug-map .skills-section,
 body.jm-debug-map .experiences-section,
 body.jm-debug-map .education-section,

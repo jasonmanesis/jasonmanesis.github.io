@@ -147,6 +147,14 @@ When a color looks wrong:
 
 Use this when you want to quickly identify which visual block you are looking at.
 
+Primary way:
+
+1. Open your site.
+2. Click the floating `Map` button (bottom-left).
+3. Click again to turn it off.
+
+Fallback way (console):
+
 1. Open your site.
 2. Open browser console.
 3. Run:
