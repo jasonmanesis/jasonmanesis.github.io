@@ -47,10 +47,12 @@ canvas {
   height: auto;
 }
 
-/* Footer branding: keep Hugo logo visually balanced */
+/* Footer branding: keep Toha + Hugo logos visually consistent */
+.footer [href*='github.com/hugo-toha/toha'] img,
 .footer [href*='gohugo.io'] img {
   width: auto !important;
-  max-height: 56px !important;
+  height: 24px !important;
+  max-height: 24px !important;
 }
 
 /* Allow long tokens/URLs to wrap instead of expanding layout width */
