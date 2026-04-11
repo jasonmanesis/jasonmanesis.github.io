@@ -115,7 +115,3 @@
   })();
 </script>
 
-{{ $debugMapToggle := resources.Get "js/debug-map-toggle.js" }}
-{{ if $debugMapToggle }}
-<script defer src="{{ $debugMapToggle.RelPermalink }}"></script>
-{{ end }}
