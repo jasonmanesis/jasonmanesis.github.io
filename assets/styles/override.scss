@@ -286,6 +286,29 @@ html[data-theme='dark'] .top-navbar .navbar-collapse.collapsing .jm-mobile-menu-
   color: var(--jm-light-filter-text) !important;
 }
 
+/* Publications-only override: same behavior as Skills */
+#publication-filter-buttons .pub-filtr-control,
+#publication-filter-buttons .filtr-control,
+#publication-filter-buttons .btn,
+#publication-filter-buttons button,
+#publication-filter-buttons a,
+#publication-filter-buttons > * {
+  background-color: #f7f4f0 !important;
+  border-color: #f7f4f0 !important;
+  color: var(--jm-light-filter-text) !important;
+}
+
+#publication-filter-buttons .pub-filtr-control:hover,
+#publication-filter-buttons .filtr-control:hover,
+#publication-filter-buttons .btn:hover,
+#publication-filter-buttons button:hover,
+#publication-filter-buttons a:hover,
+#publication-filter-buttons > *:hover {
+  background-color: var(--jm-light-filter-hover-bg) !important;
+  border-color: var(--jm-light-filter-hover-bg) !important;
+  color: var(--jm-light-filter-text) !important;
+}
+
 #skill-filter-buttons .skill-filtr-control.active,
 #skill-filter-buttons .skill-filtr-control.filtr-active,
 [id^='project-filter-buttons-'] .project-filtr-control.active,
