@@ -120,6 +120,15 @@
     if (window.__jmSectionScrollspyInit) return;
     window.__jmSectionScrollspyInit = true;
 
+    // Disable Bootstrap's scrollspy so it doesn't override custom active states.
+    document.body.removeAttribute('data-bs-spy');
+    if (window.bootstrap && window.bootstrap.ScrollSpy) {
+      const existingSpy = window.bootstrap.ScrollSpy.getInstance(document.body);
+      if (existingSpy && typeof existingSpy.dispose === 'function') {
+        existingSpy.dispose();
+      }
+    }
+
     const nav = document.getElementById('top-navbar');
     if (!nav) return;
 
@@ -157,7 +166,8 @@
       let active = items[0];
 
       for (let i = 0; i < items.length; i++) {
-        if (items[i].section.offsetTop <= y) {
+        const sectionTop = items[i].section.getBoundingClientRect().top + window.scrollY;
+        if (sectionTop <= y) {
           active = items[i];
         }
       }
