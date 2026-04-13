@@ -300,6 +300,19 @@ html[data-theme='dark'] .top-navbar .navbar-collapse.collapsing .jm-mobile-menu-
   margin-top: 0.85rem;
 }
 
+/* Make every Work Experience timeline stroke match the horizontal line color */
+html[data-theme='light'] .experiences-section .timeline {
+  --jm-experience-line-color: var(--jm-light-border);
+}
+
+html[data-theme='light'] .experiences-section .timeline .horizontal-line hr,
+html[data-theme='light'] .experiences-section .timeline .horizontal-line .corner,
+html[data-theme='light'] .experiences-section .timeline .vertical-line::after,
+html[data-theme='light'] .experiences-section .timeline .circle {
+  border-color: var(--jm-experience-line-color) !important;
+  background-color: var(--jm-experience-line-color) !important;
+}
+
 /* Match light-theme hero intro colors to dark theme */
 .home img {
   background-color: var(--jm-dark-bg-secondary) !important;
