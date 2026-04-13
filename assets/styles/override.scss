@@ -368,12 +368,27 @@ html[data-theme='light'] .footer {
   background-color: var(--jm-light-filter-bg) !important;
 }
 
+html[data-theme='light'] .footer .container,
+html[data-theme='light'] .footer #disclaimer,
+html[data-theme='light'] .footer .disclaimer {
+  background-color: var(--jm-light-filter-bg) !important;
+}
+
 html[data-theme='light'] .footer h1,
 html[data-theme='light'] .footer h2,
 html[data-theme='light'] .footer h3,
 html[data-theme='light'] .footer h4,
 html[data-theme='light'] .footer h5,
 html[data-theme='light'] .footer h6 {
+  color: var(--jm-light-filter-text) !important;
+}
+
+html[data-theme='light'] .footer #disclaimer,
+html[data-theme='light'] .footer #disclaimer *,
+html[data-theme='light'] .footer [href*='github.com/hugo-toha/toha'],
+html[data-theme='light'] .footer [href*='github.com/hugo-toha/toha'] *,
+html[data-theme='light'] .footer [href*='gohugo.io'],
+html[data-theme='light'] .footer [href*='gohugo.io'] * {
   color: var(--jm-light-filter-text) !important;
 }
 
