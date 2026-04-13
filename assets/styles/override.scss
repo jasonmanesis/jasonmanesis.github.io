@@ -94,6 +94,27 @@ canvas {
   }
 }
 
+/* Center section H1 titles vertically in their heading area */
+.section-holder .anchor > h1.text-center {
+  position: relative;
+  min-height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Keep section anchor offsets without affecting heading layout */
+.section-holder .anchor > h1.text-center > span[id] {
+  position: absolute;
+  top: -55px;
+  left: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
 .jm-theme-icons-wrapper {
   list-style: none;
   display: inline-flex;
