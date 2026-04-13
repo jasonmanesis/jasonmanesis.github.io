@@ -402,6 +402,16 @@ html[data-theme='light'] .education-section {
 html[data-theme='light'] .education-section .education-info-table td.icon .hline {
   background-color: var(--jm-education-line-color) !important;
   border-color: var(--jm-education-line-color) !important;
+  border-top-color: var(--jm-education-line-color) !important;
+  border-bottom-color: var(--jm-education-line-color) !important;
+}
+
+html[data-theme='light'] .education-section .education-info-table td.icon .hline::before,
+html[data-theme='light'] .education-section .education-info-table td.icon .hline::after,
+html[data-theme='light'] .education-section .education-info-table td.icon hr {
+  background-color: var(--jm-education-line-color) !important;
+  border-color: var(--jm-education-line-color) !important;
+  border-top-color: var(--jm-education-line-color) !important;
 }
 
 /* Main vertical connector line */
