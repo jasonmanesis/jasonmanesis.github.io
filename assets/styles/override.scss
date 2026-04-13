@@ -313,6 +313,16 @@ html[data-theme='light'] .experiences-section .timeline .circle {
   background-color: var(--jm-experience-line-color) !important;
 }
 
+html[data-theme='light'] .experiences-section .timeline .horizontal-line .corner,
+html[data-theme='light'] .experiences-section .timeline .horizontal-line .corner::before,
+html[data-theme='light'] .experiences-section .timeline .horizontal-line .corner::after {
+  border-top-color: var(--jm-experience-line-color) !important;
+  border-right-color: var(--jm-experience-line-color) !important;
+  border-bottom-color: var(--jm-experience-line-color) !important;
+  border-left-color: var(--jm-experience-line-color) !important;
+  background-color: var(--jm-experience-line-color) !important;
+}
+
 /* Match light-theme hero intro colors to dark theme */
 .home img {
   background-color: var(--jm-dark-bg-secondary) !important;
