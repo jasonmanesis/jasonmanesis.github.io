@@ -363,6 +363,20 @@ hr {
   border-color: var(--jm-light-border) !important;
 }
 
+/* Light mode: footer matches Projects section surface and heading color */
+html[data-theme='light'] .footer {
+  background-color: var(--jm-light-filter-bg) !important;
+}
+
+html[data-theme='light'] .footer h1,
+html[data-theme='light'] .footer h2,
+html[data-theme='light'] .footer h3,
+html[data-theme='light'] .footer h4,
+html[data-theme='light'] .footer h5,
+html[data-theme='light'] .footer h6 {
+  color: var(--jm-light-filter-text) !important;
+}
+
 /* Keep navbar divider color fixed to dark palette with 30% transparency */
 .top-navbar-divider {
   border-color: rgba(var(--jm-dark-border-rgb), 0.3) !important;
