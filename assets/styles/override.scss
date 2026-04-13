@@ -307,10 +307,13 @@ html[data-theme='light'] .experiences-section .timeline {
 
 html[data-theme='light'] .experiences-section .timeline .horizontal-line hr,
 html[data-theme='light'] .experiences-section .timeline .horizontal-line .corner,
+html[data-theme='light'] .experiences-section .timeline .vertical-line,
+html[data-theme='light'] .experiences-section .timeline .vertical-line::before,
 html[data-theme='light'] .experiences-section .timeline .vertical-line::after,
 html[data-theme='light'] .experiences-section .timeline .circle {
   border-color: var(--jm-experience-line-color) !important;
   background-color: var(--jm-experience-line-color) !important;
+  opacity: 1 !important;
 }
 
 html[data-theme='light'] .experiences-section .timeline .horizontal-line .corner,
@@ -321,6 +324,13 @@ html[data-theme='light'] .experiences-section .timeline .horizontal-line .corner
   border-bottom-color: var(--jm-experience-line-color) !important;
   border-left-color: var(--jm-experience-line-color) !important;
   background-color: var(--jm-experience-line-color) !important;
+  opacity: 1 !important;
+}
+
+html[data-theme='light'] .experiences-section .timeline .horizontal-line,
+html[data-theme='light'] .experiences-section .timeline .vertical-line {
+  color: var(--jm-experience-line-color) !important;
+  border-color: var(--jm-experience-line-color) !important;
 }
 
 /* Match light-theme hero intro colors to dark theme */
