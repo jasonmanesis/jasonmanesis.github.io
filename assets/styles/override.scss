@@ -393,6 +393,45 @@ html[data-theme='light'] .experiences-section .timeline .horizontal-line .corner
   background-color: transparent !important;
 }
 
+/* Education timeline: use keyword-badge background tone for lines */
+html[data-theme='light'] .education-section .timeline {
+  --jm-education-line-color: rgba(163, 155, 142, 0.4);
+}
+
+html[data-theme='light'] .education-section .timeline .horizontal-line hr,
+html[data-theme='light'] .education-section .timeline .horizontal-line .corner,
+html[data-theme='light'] .education-section .timeline .vertical-line::after,
+html[data-theme='light'] .education-section .timeline .circle {
+  border-color: var(--jm-education-line-color) !important;
+}
+
+html[data-theme='light'] .education-section .timeline .horizontal-line hr,
+html[data-theme='light'] .education-section .timeline .vertical-line::after,
+html[data-theme='light'] .education-section .timeline .circle {
+  background-color: var(--jm-education-line-color) !important;
+}
+
+html[data-theme='light'] .education-section .timeline .horizontal-line .corner,
+html[data-theme='light'] .education-section .timeline .horizontal-line .corner::before,
+html[data-theme='light'] .education-section .timeline .horizontal-line .corner::after {
+  border-top-color: var(--jm-education-line-color) !important;
+  border-right-color: var(--jm-education-line-color) !important;
+  border-bottom-color: var(--jm-education-line-color) !important;
+  border-left-color: var(--jm-education-line-color) !important;
+  background-color: transparent !important;
+}
+
+/* Symbols inside education timeline nodes */
+html[data-theme='light'] .education-section .timeline .circle i,
+html[data-theme='light'] .education-section .timeline .circle svg,
+html[data-theme='light'] .education-section .timeline .circle span,
+html[data-theme='light'] .education-section .timeline .circle .fa,
+html[data-theme='light'] .education-section .timeline .circle [class*='icon'] {
+  color: #f7f4f0 !important;
+  fill: #f7f4f0 !important;
+  stroke: #f7f4f0 !important;
+}
+
 /* Match light-theme hero intro colors to dark theme */
 .home img {
   background-color: var(--jm-dark-bg-secondary) !important;
