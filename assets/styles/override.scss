@@ -395,7 +395,7 @@ html[data-theme='light'] .experiences-section .timeline .horizontal-line .corner
 
 /* Education timeline: target rendered table structure directly */
 html[data-theme='light'] .education-section {
-  --jm-education-line-color: rgba(163, 155, 142, 0.4);
+  --jm-education-line-color: #a39b8e;
 }
 
 /* Two horizontal connector lines */
@@ -411,7 +411,17 @@ html[data-theme='light'] .education-section .education-info-table td.line::after
 html[data-theme='light'] .education-section .education-info-table td.icon .vline,
 html[data-theme='light'] .education-section .education-info-table td.icon .line {
   border-left-color: var(--jm-education-line-color) !important;
-  border-right-color: var(--jm-education-line-color) !important;
+}
+
+/* Keep the table cell transparent; only the connector stroke should be colored */
+html[data-theme='light'] .education-section .education-info-table td.line {
+  background-color: transparent !important;
+}
+
+html[data-theme='light'] .education-section .education-info-table td.line::before,
+html[data-theme='light'] .education-section .education-info-table td.line::after,
+html[data-theme='light'] .education-section .education-info-table td.icon .vline,
+html[data-theme='light'] .education-section .education-info-table td.icon .line {
   background-color: var(--jm-education-line-color) !important;
 }
 
