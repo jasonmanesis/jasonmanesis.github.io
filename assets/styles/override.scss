@@ -270,8 +270,8 @@ html[data-theme='dark'] .top-navbar .navbar-collapse.collapsing .jm-mobile-menu-
 #skill-filter-buttons button,
 #skill-filter-buttons a,
 #skill-filter-buttons > * {
-  background-color: var(--jm-light-filter-hover-bg) !important;
-  border-color: var(--jm-light-filter-hover-bg) !important;
+  background-color: #f7f4f0 !important;
+  border-color: #f7f4f0 !important;
   color: var(--jm-light-filter-text) !important;
 }
 
@@ -281,8 +281,8 @@ html[data-theme='dark'] .top-navbar .navbar-collapse.collapsing .jm-mobile-menu-
 #skill-filter-buttons button:hover,
 #skill-filter-buttons a:hover,
 #skill-filter-buttons > *:hover {
-  background-color: #c9c3b8 !important;
-  border-color: #c9c3b8 !important;
+  background-color: var(--jm-light-filter-hover-bg) !important;
+  border-color: var(--jm-light-filter-hover-bg) !important;
   color: var(--jm-light-filter-text) !important;
 }
 
