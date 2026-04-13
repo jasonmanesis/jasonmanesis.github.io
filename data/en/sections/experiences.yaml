@@ -35,9 +35,9 @@ experiences:
     name: Red Edge
     url: "https://rededge.ai/"
     location: Athens, Greece
-    logo: /images/sections/experiences/rededge_logo_light.webp
+    logo: /images/sections/experiences/red_black.svg
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
+    darkLogo: /images/sections/experiences/red_white.svg
     overview: Geospatial analytics organization focused on advanced SAR and Earth observation processing methodologies.
   positions:
   - designation: Geospatial Deep Learning Engineer
