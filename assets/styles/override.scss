@@ -392,6 +392,25 @@ html[data-theme='light'] .footer [href*='gohugo.io'] * {
   color: var(--jm-light-filter-text) !important;
 }
 
+/* About section: social icons at 30% transparency and custom resume button surface */
+html[data-theme='light'] .about-section .social-link a,
+html[data-theme='light'] .about-section .social-link a i {
+  color: rgba(59, 51, 42, 0.7) !important;
+}
+
+html[data-theme='light'] .about-section .social-link a:hover,
+html[data-theme='light'] .about-section .social-link a:hover i {
+  color: rgba(59, 51, 42, 1) !important;
+}
+
+html[data-theme='light'] .about-section .custom-link a,
+html[data-theme='light'] .about-section .custom-link .btn,
+html[data-theme='light'] .about-section a.btn {
+  background-color: #ebe6de !important;
+  border-color: #ebe6de !important;
+  color: var(--jm-light-filter-text) !important;
+}
+
 /* Keep navbar divider color fixed to dark palette with 30% transparency */
 .top-navbar-divider {
   border-color: rgba(var(--jm-dark-border-rgb), 0.3) !important;
