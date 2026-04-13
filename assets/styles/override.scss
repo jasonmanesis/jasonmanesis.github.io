@@ -263,14 +263,24 @@ html[data-theme='dark'] .top-navbar .navbar-collapse.collapsing .jm-mobile-menu-
   color: var(--jm-light-filter-active-text) !important;
 }
 
-/* Skills-only override: default equals the old hover tone, hover is brighter, text stays the same */
-#skill-filter-buttons .skill-filtr-control {
+/* Skills-only override: force-match actual chip elements in Skills filter row */
+#skill-filter-buttons .skill-filtr-control,
+#skill-filter-buttons .filtr-control,
+#skill-filter-buttons .btn,
+#skill-filter-buttons button,
+#skill-filter-buttons a,
+#skill-filter-buttons > * {
   background-color: var(--jm-light-filter-hover-bg) !important;
   border-color: var(--jm-light-filter-hover-bg) !important;
   color: var(--jm-light-filter-text) !important;
 }
 
-#skill-filter-buttons .skill-filtr-control:hover {
+#skill-filter-buttons .skill-filtr-control:hover,
+#skill-filter-buttons .filtr-control:hover,
+#skill-filter-buttons .btn:hover,
+#skill-filter-buttons button:hover,
+#skill-filter-buttons a:hover,
+#skill-filter-buttons > *:hover {
   background-color: #c9c3b8 !important;
   border-color: #c9c3b8 !important;
   color: var(--jm-light-filter-text) !important;
