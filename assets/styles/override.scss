@@ -365,13 +365,13 @@ hr {
 
 /* Light mode: footer matches Projects section surface and heading color */
 html[data-theme='light'] .footer {
-  background-color: var(--jm-light-filter-bg) !important;
+  background-color: #f7f4f0 !important;
 }
 
 html[data-theme='light'] .footer .container,
 html[data-theme='light'] .footer #disclaimer,
 html[data-theme='light'] .footer .disclaimer {
-  background-color: var(--jm-light-filter-bg) !important;
+  background-color: #f7f4f0 !important;
 }
 
 html[data-theme='light'] .footer h1,
