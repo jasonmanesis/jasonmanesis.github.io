@@ -309,6 +309,25 @@ html[data-theme='dark'] .top-navbar .navbar-collapse.collapsing .jm-mobile-menu-
   color: var(--jm-light-filter-text) !important;
 }
 
+/* Light mode: Project + Publication keyword badges */
+html[data-theme='light'] .project-card-footer .btn.badge.btn-info,
+html[data-theme='light'] .publications-section .tags .btn.badge.btn-info {
+  background-color: rgba(163, 155, 142, 0.4) !important;
+  border-color: rgba(163, 155, 142, 0.4) !important;
+  color: var(--jm-light-filter-text) !important;
+}
+
+html[data-theme='light'] .project-card-footer .btn.badge.btn-info:hover,
+html[data-theme='light'] .project-card-footer .btn.badge.btn-info:focus,
+html[data-theme='light'] .project-card-footer .btn.badge.btn-info:active,
+html[data-theme='light'] .publications-section .tags .btn.badge.btn-info:hover,
+html[data-theme='light'] .publications-section .tags .btn.badge.btn-info:focus,
+html[data-theme='light'] .publications-section .tags .btn.badge.btn-info:active {
+  background-color: rgba(163, 155, 142, 0.4) !important;
+  border-color: rgba(163, 155, 142, 0.4) !important;
+  color: var(--jm-light-filter-active-text) !important;
+}
+
 #skill-filter-buttons .skill-filtr-control.active,
 #skill-filter-buttons .skill-filtr-control.filtr-active,
 [id^='project-filter-buttons-'] .project-filtr-control.active,
