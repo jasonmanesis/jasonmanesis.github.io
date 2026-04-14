@@ -24,6 +24,7 @@ projects:
 - name: Automated Land Cover Mapping System for Greece
   role: Geospatial Deep Learning Engineer
   timeline: "Oct 2025 - Present"
+  image: /images/sections/projects/toha_website.png
   url: "https://www.hsc.gov.gr/"
   summary: Nationwide VHR land cover mapping pipeline combining DINO-based feature extraction, SAM boundary refinement, and active learning with expert-in-the-loop corrections.
   tags: ["professional", "research", "personal", "remote-sensing"]
