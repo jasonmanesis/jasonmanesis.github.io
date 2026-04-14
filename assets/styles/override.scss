@@ -349,6 +349,17 @@ html[data-theme='light'] .publications-section .tags .btn.badge.btn-info:active 
   color: var(--jm-light-filter-text) !important;
 }
 
+/* Project card cover images: tone down in normal state, restore on hover */
+.projects-section .card .card-head .card-img-top {
+  filter: saturate(0.72) brightness(0.9);
+  transition: filter 0.3s ease;
+}
+
+.projects-section .card:hover .card-head .card-img-top,
+.projects-section .card:focus-within .card-head .card-img-top {
+  filter: saturate(1) brightness(1);
+}
+
 #skill-filter-buttons .skill-filtr-control.active,
 #skill-filter-buttons .skill-filtr-control.filtr-active,
 [id^='project-filter-buttons-'] .project-filtr-control.active,
@@ -625,6 +636,10 @@ html[data-theme='dark'] {
     background-color: var(--jm-dark-accent-hover) !important;
     border-color: var(--jm-dark-accent-hover) !important;
     color: var(--jm-dark-tag-text) !important;
+  }
+
+  .projects-section .card .card-head .card-img-top {
+    filter: saturate(0.55) brightness(0.72) contrast(1.08);
   }
 
   body,
