@@ -24,12 +24,16 @@ degrees:
     achieved: 9.5
     outOf: 10
   customSections: #(optional)
-    - name: Thesis
+    - name: MSc Thesis
       content: Oil Spill Mapping in SAR Imagery via Deep Learning and Test-Time Domain Adaptation.
     - name: Specialization
       content: Remote Sensing, Data Science, Machine Learning, Deep Learning.
     - name: ECTS Credits
       content: 90
+    - name: MSc Thesis Report
+      content: "[📄 MSc Thesis PDF](https://docs.google.com/presentation/d/1S5oht2VLze7fV6I6rbLLTxNLI_gKHQV5DeqPnZ2VuWw/edit?usp=sharing)"
+    - name: MSc Thesis Presentation
+      content: "[📊 PPT Slides](https://drive.google.com/file/d/1vVf4pa_ksTJfq4gGGtOt5v8f-xUyel_D/view?usp=sharing)"
 - name: Rural, Surveying and Geoinformatics Engineer (MEng)
   icon: fa-university
   timeframe: 2013-2022
@@ -50,3 +54,7 @@ degrees:
       content: Remote Sensing, Data Science, Machine Learning, Deep Learning.
     - name: ECTS Credits
       content: 300
+    - name: Diploma Thesis Report
+      content: "[📄 Thesis PDF](https://drive.google.com/file/d/1e0AKDU3VCi5mWqIdhsdHDN8NbajrXL02/view?usp=sharing)"
+    - name: Diploma Thesis Presentation
+      content: "[📊 PPT Slides](https://docs.google.com/presentation/d/1jXLiHL-NQhuFHnU1V7cHzsqKYTQ4sy7j/edit?usp=sharing&ouid=108968933204084068478&rtpof=true&sd=true)"

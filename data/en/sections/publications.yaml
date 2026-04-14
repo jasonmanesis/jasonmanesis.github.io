@@ -12,8 +12,8 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
+- name: "Deep Learning"
+  filter: "deeplearning"
 - name: "Remote Sensing"
   filter: "remote-sensing"
 - name: "Earth Observation"
@@ -25,9 +25,9 @@ publications:
   publishedIn:
     name: Ziti Publications
     date: 2021
-    url: "#"
+    url: "https://ziti.gr/"
   authors:
-  - name: I. Manesis
+  - name: J. Manesis
     url: https://orcid.org/0009-0006-8103-5601
   - name: D. Argialas
     url: "#"
@@ -36,16 +36,16 @@ publications:
   paper:
     summary: Deep CNN approach for automated crater extraction from DEM-derived imagery to support planetary mapping workflows.
     url: "#"
-  categories: ["machinelearning", "remote-sensing"]
+  categories: ["deeplearning", "remote-sensing"]
   tags: ["Deep Learning", "Remote Sensing", "Crater Mapping"]
 
-- title: Detecting Marine Pollutants using Sentinel-1 SAR and Sentinel-2 Optical Imagery
+- title: Detecting Marine Pollutants Using Sentinel-1 SAR and Sentinel-2 Optical Imagery
   publishedIn:
-    name: IEEE International Geoscience and Remote Sensing Symposium (IGARSS)
-    date: 2025
-    url: https://www.igarss2025.org/
+    name: International Society for Photogrammetry and Remote Sensing (ISPRS)
+    date: 2026
+    url: https://www.isprs.org/
   authors:
-  - name: I. Manesis
+  - name: J. Manesis
     url: https://orcid.org/0009-0006-8103-5601
   - name: P. Mikeli
     url: "#"
@@ -60,5 +60,5 @@ publications:
   paper:
     summary: Multi-sensor Earth observation approach for marine pollutant detection using SAR and optical satellite imagery.
     url: "#"
-  categories: ["machinelearning", "remote-sensing", "earth-observation"]
-  tags: ["SAR", "Sentinel-1", "Sentinel-2", "Environmental Monitoring"]
+  categories: ["deeplearning", "remote-sensing", "earth-observation"]
+  tags: ["SAR", "Sentinel-1", "Sentinel-2", "Environmental Monitoring", "Marine Pollution"]

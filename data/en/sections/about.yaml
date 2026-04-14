@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Results-driven Geoinformatics Engineer with a strong academic foundation and extensive experience applying Machine and Deep Learning to Earth Observation challenges. I design and deploy high-performance geospatial pipelines across remote sensing preprocessing, semantic segmentation, and MLOps workflows for near-real-time environmental monitoring.'
+summary: 'Results-driven Geoinformatics Engineer with a strong academic foundation and extensive experience applying Machine and Deep Learning techniques to Earth Observation challenges. Skilled in developing and deploying efficient, high-performance pipelines for diverse geospatial data processing and analysis tasks.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -38,11 +38,7 @@ socialLinks:
 
 - name: ORCID
   icon: "fab fa-orcid"
-  url: "https://orcid.org/0009-0006-8103-5601"
-
-- name: Instagram
-  icon: "fab fa-instagram"
-  url: "https://www.instagram.com/jason_manesis/"  
+  url: "https://orcid.org/0009-0006-8103-5601" 
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
