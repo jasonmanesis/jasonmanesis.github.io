@@ -27,11 +27,12 @@ projects:
   image: /images/sections/projects/toha_website.png
   url: "https://www.hsc.gov.gr/"
   summary: Nationwide VHR land cover mapping pipeline combining DINO-based feature extraction, SAM boundary refinement, and active learning with expert-in-the-loop corrections.
-  tags: ["professional", "research", "personal", "remote-sensing"]
+  tags: ["professional","remote-sensing"]
 
 - name: SAR to SAR Co-registration Methodologies
   role: Geospatial Deep Learning Engineer
   timeline: "Mar 2025 - Present"
+  video: /videos/sample.mp4
   url: "#"
   summary: High-precision co-registration system for multitemporal VHR SAR data with ARD generation and sub-pixel alignment across Spotlight, Stripmap, and Scan modes.
   tags: ["professional", "research", "remote-sensing"]
@@ -41,14 +42,14 @@ projects:
   timeline: "Mar 2022 - Oct 2025"
   url: "https://www.ntua.gr/"
   summary: Near-real-time MLOps platform integrating SAR and optical data for oil spill detection, analytics, and decision support in marine environments.
-  tags: ["professional", "research", "personal", "earth-observation"]
+  tags: ["professional", "research", "earth-observation"]
 
 - name: Edge SpAIce Marine Plastic Detection
   role: AI Research Engineer
   timeline: "Jan 2025 - Jun 2025"
   url: "https://www.ntua.gr/"
   summary: Ultra-light edge AI segmentation architecture with pruning, transfer learning, and quantization for on-board marine plastic detection.
-  tags: ["research", "personal", "edge-ai"]
+  tags: ["research", "professional", "edge-ai"]
 
 - name: Ship Detection on Remote Sensing Synthetic Aperture Radar Data via Deep Learning Techniques
   role: Student Researcher
