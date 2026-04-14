@@ -14,9 +14,9 @@ experiences:
     name: Hellenic Space Center
     url: "https://www.hsc.gov.gr/"
     location: "Athens, Greece"
-    logo: /images/sections/experiences/logohd_black.png
+    logo: /images/sections/experiences/hsc_black.svg
     # Can optionally show a different logo for dark theme
-    darkLogo: /images/sections/experiences/logohd.png
+    darkLogo: /images/sections/experiences/hsc_white.svg
     # company overview
     overview: The national space agency of Greece, responsible for the coordination and implementation of the country's space strategy. It operates as a non-profit public entity overseen by the Ministry of Digital Governance, with the mission of promoting space research, fostering the domestic space industry, and managing national participation in international bodies such as the European Space Agency (ESA).
   positions:
