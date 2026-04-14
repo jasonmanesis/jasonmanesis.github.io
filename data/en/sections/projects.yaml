@@ -24,7 +24,7 @@ projects:
 - name: Automated Land Cover Mapping System for Greece
   role: Geospatial Deep Learning Engineer
   timeline: "Oct 2025 - Present"
-  image: /images/sections/projects/toha_website.png
+  image: /images/sections/projects/Greece_article.jpg
   url: "https://www.hsc.gov.gr/"
   summary: Nationwide VHR land cover mapping pipeline combining DINO-based feature extraction, SAM boundary refinement, and active learning with expert-in-the-loop corrections.
   tags: ["professional","remote-sensing"]
@@ -32,7 +32,7 @@ projects:
 - name: SAR to SAR Co-registration Methodologies
   role: Geospatial Deep Learning Engineer
   timeline: "Mar 2025 - Present"
-  video: /videos/sample.mp4
+  image: /images/sections/projects/Greece_article.jpg
   url: "#"
   summary: High-precision co-registration system for multitemporal VHR SAR data with ARD generation and sub-pixel alignment across Spotlight, Stripmap, and Scan modes.
   tags: ["professional", "research", "remote-sensing"]
@@ -40,6 +40,7 @@ projects:
 - name: Intelligent Early Warning System for Oil Spill Detection
   role: Geospatial Deep Learning Engineer
   timeline: "Mar 2022 - Oct 2025"
+  image: /images/sections/projects/Greece_article.jpg
   url: "https://www.ntua.gr/"
   summary: Near-real-time MLOps platform integrating SAR and optical data for oil spill detection, analytics, and decision support in marine environments.
   tags: ["professional", "research", "earth-observation"]
@@ -47,6 +48,7 @@ projects:
 - name: Edge SpAIce Marine Plastic Detection
   role: AI Research Engineer
   timeline: "Jan 2025 - Jun 2025"
+  image: /images/sections/projects/marine_plastics.png
   url: "https://www.ntua.gr/"
   summary: Ultra-light edge AI segmentation architecture with pruning, transfer learning, and quantization for on-board marine plastic detection.
   tags: ["research", "professional", "edge-ai"]
@@ -54,6 +56,23 @@ projects:
 - name: Ship Detection on Remote Sensing Synthetic Aperture Radar Data via Deep Learning Techniques
   role: Student Researcher
   timeline: "Nov 2020 - Feb 2022"
+  image: /images/sections/projects/ship_detection.jpg 
   url: "https://github.com/jasonmanesis/Ship-Detection-on-Remote-Sensing-Synthetic-Aperture-Radar-Data"
   summary: The present project was conducted as part of my diploma thesis which focuses on the investigation of methods for the effective detection of ships in synthetic aperture radar satellite imagery utilizing deep learning techniques.
   tags: ["personal", "geospatial", "object-detection"]
+
+- name: Satellite Imagery Datasets Containing Ships
+  role: Student Researcher
+  timeline: "Apr 2021 - Present"
+  image: /images/sections/projects/ship_datasets.jpg
+  url: "https://github.com/jasonmanesis/Ship-Detection-on-Remote-Sensing-Synthetic-Aperture-Radar-Data"
+  summary: A continuously updated repository of satellite imagery datasets containing ships, curated for research and development in maritime vessel detection, classification and segmentation using remote sensing data.
+  tags: ["personal", "geospatial", "list","object-detection", "semantic-segmentation", "classification"]
+
+- name: Wildfire Smoke Detection
+  role: Student Researcher
+  timeline: "Aug 2021 - Oct 2021"
+  image: /images/sections/projects/wfsm_detection.jpg
+  url: "https://github.com/jasonmanesis/Wildfire-Smoke-Detection"
+  summary: Convolutional neural network model based on the architecture of the Faster-RCNN for wildfire smoke detection. For this project we used a pretrained model on ImageNet dataset, from detectron2's Model Zoo, and fine-tuned it for the task of wildfire smoke detection from optical image data.
+  tags: ["personal", "object-detection", "wildfire", "smoke-detection"]
