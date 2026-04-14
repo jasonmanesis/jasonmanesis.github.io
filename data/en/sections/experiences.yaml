@@ -26,17 +26,10 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-      • Vision-Centric MLOps (Human-in-the-Loop): Designed and managed an end-to-end active learning pipeline; transformed
-        model inferences into vector geometries for expert review in a database, subsequently converting corrected vectors back to
-        raster masks for iterative model retraining.
-      • State-of-the-Art (SOTA) Implementation: Developed a large-scale land cover mapping system for Greece using VHR
-        imagery; integrated DINO-based feature extraction and SAM (Segment Anything Model) for precise boundary refinement and
-        semantic segmentation.
-      • Advanced Remote Sensing Preprocessing: Engineered high-performance workflows including MAJA atmospheric correction,
-        Pansharpening, and Super-resolution; implemented artifact-free stitching and tiling to ensure seamless nationwide data
-        consistency.
-      • Bio-Physical Modeling: Integrated Canopy Height Estimation models utilizing spectral and geometric features to deliver
-        multi-layered environmental insights beyond standard classification.
+    - Vision-Centric MLOps (Human-in-the-Loop): Designed and managed an end-to-end active learning pipeline; transformed model inferences into vector geometries for expert review in a database, subsequently converting corrected vectors back to raster masks for iterative model retraining.
+    - State-of-the-Art (SOTA) Implementation: Developed a large-scale land cover mapping system for Greece using VHR imagery; integrated DINO-based feature extraction and SAM (Segment Anything Model) for precise boundary refinement and semantic segmentation.
+    - Advanced Remote Sensing Preprocessing: Engineered high-performance workflows including MAJA atmospheric correction, Pansharpening, and Super-resolution; implemented artifact-free stitching and tiling to ensure seamless nationwide data consistency.
+    - Bio-Physical Modeling: Integrated Canopy Height Estimation models utilizing spectral and geometric features to deliver multi-layered environmental insights beyond standard classification.
 
 - company:
     name: Red Edge
@@ -50,14 +43,9 @@ experiences:
   - designation: Geospatial Deep Learning Engineer
     start: Mar 2025
     responsibilities:
-      • High-Precision SAR Co-registration: Designed and implemented a robust pipeline for the co-registration of Very High
-        Resolution (VHR) SAR data; engineered algorithms using optical flow, keypoint matching, and deep learning to align
-        multitemporal datasets across Spotlight, Stripmap, and Scan modes.
-      • SAR Preprocessing & ARD Generation: Developed a comprehensive workflow for converting RAW SAR data (SLC) into
-        Analysis-Ready Data (ARD); implemented rigorous radiometric calibration, despeckling filters, and orthorectification to ensure
-        spatial and radiometrical consistency across heterogeneous sensors.
-      • Algorithm Optimization: Optimized co-registration performance for large-scale datasets, reducing processing time while
-        maintaining sub-pixel alignment accuracy.
+    - High-Precision SAR Co-registration: Designed and implemented a robust pipeline for the co-registration of Very High Resolution (VHR) SAR data; engineered algorithms using optical flow, keypoint matching, and deep learning to align multitemporal datasets across Spotlight, Stripmap, and Scan modes.
+    - SAR Preprocessing & ARD Generation: Developed a comprehensive workflow for converting RAW SAR data (SLC) into Analysis-Ready Data (ARD); implemented rigorous radiometric calibration, despeckling filters, and orthorectification to ensure spatial and radiometrical consistency across heterogeneous sensors.
+    - Algorithm Optimization: Optimized co-registration performance for large-scale datasets, reducing processing time while maintaining sub-pixel alignment accuracy.
 
 - company:
     name: Remote Sensing Laboratory (NTUA)
@@ -72,30 +60,18 @@ experiences:
     start: Jan 2025
     end: Mar 2025
     responsibilities:
-      • Space-Edge Architecture Design: Engineered an ultralight U-Net architecture for on-board marine plastic detection;
-        optimized the model to fit within the extreme power and memory constraints of orbital hardware.
-      • Model Compression & Optimization: Developed pruning, transfer learning, and quantization workflows to enable real-time
-        inference on low-power chips; maintained high radiometric accuracy for multispectral data while meeting strict computational
-        latency targets.
+    - Space-Edge Architecture Design: Engineered an ultralight U-Net architecture for on-board marine plastic detection; optimized the model to fit within the extreme power and memory constraints of orbital hardware.
+    - Model Compression & Optimization: Developed pruning, transfer learning, and quantization workflows to enable real-time inference on low-power chips; maintained high radiometric accuracy for multispectral data while meeting strict computational latency targets.
 
   - designation: Geospatial Deep Learning Engineer
     start: Mar 2022
     end: Jan 2025
     responsibilities:
-      • Autonomous End-to-End Pipelines: Architected, developed, and deployed automated, Near-Real-Time (NRT) MLOps
-        pipelines (preprocessing, inference, final analytics, and insights) for oil spill detection, integrating multi-sensor data (SAR and
-        Optical) into containerized (Docker) production environments.
-      • Satellite Data Preprocessing: Engineered automated Python workflows for multispectral and SAR data; implemented
-        Sen2Cor and Acolite corrections alongside custom SNAP/Snappy wrappers for SAR GRD-to-Sigma0 processing to ensure highfidelity
-        Analysis-Ready Data (ARD).
-      • Custom Dataset & Architecture Design: Created multi-sensor large-scale geospatial datasets; designed and trained
-        lightweight semantic segmentation architectures using hardware-specific optimizations to maximize inference speed for NRT
-        results.
-      • Strategic Technical Leadership: Acted as primary technical lead, translating complex requirements into well-scoped
-        experiments, CI/CD workflows, and automated QA tools; enforced high standards for clean, typed Python code and rigorous
-        peer code reviews.
-      • Advanced Analytics & Visualization: Developed custom internal tooling for spectral analysis and spatial visualization,
-        transforming raw model outputs into actionable georeferenced insights for environmental decision-making.
+    - Autonomous End-to-End Pipelines: Architected, developed, and deployed automated, Near-Real-Time (NRT) MLOps pipelines (preprocessing, inference, final analytics, and insights) for oil spill detection, integrating multi-sensor data (SAR and Optical) into containerized (Docker) production environments.
+    - Satellite Data Preprocessing: Engineered automated Python workflows for multispectral and SAR data; implemented Sen2Cor and Acolite corrections alongside custom SNAP/Snappy wrappers for SAR GRD-to-Sigma0 processing to ensure highfidelity Analysis-Ready Data (ARD).
+    - Custom Dataset & Architecture Design: Created multi-sensor large-scale geospatial datasets; designed and trained lightweight semantic segmentation architectures using hardware-specific optimizations to maximize inference speed for NRT results.
+    - Strategic Technical Leadership: Acted as primary technical lead, translating complex requirements into well-scoped experiments, CI/CD workflows, and automated QA tools; enforced high standards for clean, typed Python code and rigorous peer code reviews.
+    - Advanced Analytics & Visualization: Developed custom internal tooling for spectral analysis and spatial visualization, transforming raw model outputs into actionable georeferenced insights for environmental decision-making.
 
 - company:
     name: Hellenic Military Geographical Service
@@ -109,12 +85,7 @@ experiences:
     start: Mar 2023
     end: Oct 2023
     responsibilities:
-    • Automated Image Declassification: Developed an automated system to identify and apply optical and spectral camouflage
-      to military facilities within aerial imagery; enabled the secure declassification and public distribution of national
-      orthophotographic datasets.
-    • Big Data Geospatial Processing: Engineered a high-performance manipulation engine for large-scale aerial datasets,
-      implementing parallelized multiprocessing and advanced tiling to handle terabytes of high-resolution imagery efficiently.
-    • Full-Stack GIS Development: Designed and implemented a fully functional UI for the application, allowing for the precise
-      management of spatial datasets, visualization of camouflaged outputs, and streamlined quality control.
-    • Strategic Obfuscation: Leveraged advanced image synthesis techniques to ensure radiometric and texture consistency
-      between camouflaged areas and their natural surroundings, preventing detection via automated visual or spectral analysis.
+    - Automated Image Declassification: Developed an automated system to identify and apply optical and spectral camouflage to military facilities within aerial imagery; enabled the secure declassification and public distribution of national orthophotographic datasets.
+    - Big Data Geospatial Processing: Engineered a high-performance manipulation engine for large-scale aerial datasets, implementing parallelized multiprocessing and advanced tiling to handle terabytes of high-resolution imagery efficiently.
+    - Full-Stack GIS Development: Designed and implemented a fully functional UI for the application, allowing for the precise management of spatial datasets, visualization of camouflaged outputs, and streamlined quality control.
+    - Strategic Obfuscation: Leveraged advanced image synthesis techniques to ensure radiometric and texture consistency between camouflaged areas and their natural surroundings, preventing detection via automated visual or spectral analysis.
