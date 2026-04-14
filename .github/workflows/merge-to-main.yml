@@ -9,6 +9,8 @@ on:
 jobs:
   deploy-to-gh-pages:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
     # checkout to the commit that has been pushed
     - uses: actions/checkout@v6
