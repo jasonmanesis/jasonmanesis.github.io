@@ -10,7 +10,7 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Geoinformatics Engineer (MSc)
+- name: Geoinformatics (MSc)
   icon: fa-graduation-cap
   timeframe: 2023-2025
   institution:
@@ -34,7 +34,7 @@ degrees:
       content: "[📄 Thesis Report](https://docs.google.com/presentation/d/1S5oht2VLze7fV6I6rbLLTxNLI_gKHQV5DeqPnZ2VuWw/edit?usp=sharing)"
     - name: MSc Thesis Presentation
       content: "[📰 Thesis Presentation](https://drive.google.com/file/d/1vVf4pa_ksTJfq4gGGtOt5v8f-xUyel_D/view?usp=sharing)"
-- name: Rural, Surveying and Geoinformatics Engineer (MEng)
+- name: Rural, Surveying and Geoinformatics Engineering (MEng)
   icon: fa-university
   timeframe: 2013-2022
   institution:
