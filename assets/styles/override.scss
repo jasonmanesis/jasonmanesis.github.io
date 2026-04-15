@@ -648,6 +648,12 @@ html[data-theme='dark'] {
     transition: filter 0.55s ease, transform 0.55s ease;
   }
 
+  .projects-section .card:hover .card-head .card-img-top,
+  .projects-section .card:focus-within .card-head .card-img-top {
+    filter: saturate(1) brightness(1) contrast(1.08);
+    transform: scale(1.07);
+  }
+
   body,
   .bg-primary {
     background-color: var(--jm-dark-bg-primary) !important;
