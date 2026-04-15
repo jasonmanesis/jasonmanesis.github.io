@@ -400,9 +400,30 @@ html[data-theme='light'] .publications-section .tags .btn.badge.btn-info:active 
   margin-top: 0.85rem;
 }
 
+/* Light mode: hardcode experience section title-like labels */
+html[data-theme='light'] .experiences-section h6.text-heading,
+html[data-theme='light'] .experiences-section .jm-experience-inline-meta strong {
+  color: #635e56 !important;
+}
+
 /* Match top spacing of inline metadata with Responsibilities heading */
 .experiences-section .jm-experience-inline-meta {
   margin-top: 0.85rem;
+}
+
+/* Thin divider after each job title, tied to timeline colors with extra transparency */
+.experiences-section .jm-experience-position-divider {
+  border-top: 1px solid transparent;
+  margin-top: 0.38rem;
+  margin-bottom: 0.1rem;
+}
+
+html[data-theme='light'] .experiences-section .jm-experience-position-divider {
+  border-top-color: rgba(209, 205, 194, 0.62);
+}
+
+html[data-theme='dark'] .experiences-section .jm-experience-position-divider {
+  border-top-color: rgba(var(--jm-dark-border-rgb), 0.42);
 }
 
 /* Make every Work Experience timeline stroke match the horizontal line color */
