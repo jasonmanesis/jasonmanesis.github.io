@@ -33,14 +33,9 @@
             <p class="text-muted">{{ $position.start }} - {{if $position.end }} {{ $position.end }} {{else}} {{ i18n "present" }} {{end}}</p>
         </div>
 
-        <!-- Project title shown in the same heading/list style as responsibilities -->
+        <!-- Project title shown inline after the heading label -->
         {{ if $position.projectTitle }}
-            <h6 class="text-heading">Project Title:</h6>
-            <ul class="justify-content-around">
-                {{ range $position.projectTitle }}
-                    <li>{{ . | markdownify }}</li>
-                {{ end }}
-            </ul>
+            <h6 class="text-heading">Project Title:{{ range $index, $title := $position.projectTitle }}{{ if gt $index 0 }}; {{ end }} {{ $title }}{{ end }}</h6>
         {{ end }}
 
         <!-- Add the responsibilities handled at this position -->
@@ -53,14 +48,9 @@
             </ul>
         {{ end }}
 
-        <!-- Strategic partners shown in the same heading/list style as responsibilities -->
+        <!-- Strategic partners shown inline after the heading label -->
         {{ if $position.strategicPartners }}
-            <h6 class="text-heading">Strategic Partners:</h6>
-            <ul class="justify-content-around">
-                {{ range $position.strategicPartners }}
-                    <li>{{ . | markdownify }}</li>
-                {{ end }}
-            </ul>
+            <h6 class="text-heading">Strategic Partners:{{ range $index, $partner := $position.strategicPartners }}{{ if gt $index 0 }}; {{ end }} {{ $partner }}{{ end }}</h6>
         {{ end }}
     {{ end }}
     </div>
