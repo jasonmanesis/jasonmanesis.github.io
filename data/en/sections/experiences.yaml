@@ -62,7 +62,6 @@ experiences:
     strategicPartners:
     - A leading global SAR satellite constellation provider
     - ESA and Horizon Europe project consortia
-    - NCSR "Demokritos"
 
 - company:
     name: Remote Sensing Laboratory (NTUA)
@@ -86,6 +85,7 @@ experiences:
     strategicPartners:
     - Edge SpAIce consortium
     - ESA and Horizon Europe project consortia
+    - NCSR "Demokritos"
 
   - designation: Geospatial Deep Learning Engineer
     start: Mar 2022

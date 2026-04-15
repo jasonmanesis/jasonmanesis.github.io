@@ -24,7 +24,7 @@ projects:
 - name: Nationwide Automated Land Cover Mapping System
   role: Geospatial Deep Learning Engineer
   timeline: "Oct 2025 - Present"
-  image: /images/sections/projects/Greece_article.jpg
+  image: /images/sections/projects/lcmapping.jpg
   url: "https://www.hsc.gov.gr/"
   summary: Nationwide VHR land cover mapping pipeline combining DINO-based feature extraction, SAM boundary refinement, and active learning with expert-in-the-loop corrections.
   tags: ["professional","remote-sensing"]
@@ -48,13 +48,13 @@ projects:
 - name: Novel Edge-AI system for accurate and near real-time plastic detection and monitoring in marine environment
   role: AI Research Engineer
   timeline: "Jan 2025 - Jun 2025"
-  image: /images/sections/projects/marine_plastics.png
+  image: /images/sections/projects/marinelitter.jpg
   url: "https://edgespaice.eu/"
   summary: Ultra-light edge AI segmentation architecture with pruning, transfer learning, and quantization for on-board marine plastic detection.
   tags: ["research", "professional", "edge-ai"]
 
 - name: Automated Camouflage and Geospatial Declassification System
-  role: Software Engineer - Geospatial Intelligence (Military Service)
+  role: Software Engineer (Military Service)
   timeline: "Mar 2023 - Oct 2023"
   image: /images/sections/projects/declass.jpg
   url: "https://www.gys.gr/index_en.html"
