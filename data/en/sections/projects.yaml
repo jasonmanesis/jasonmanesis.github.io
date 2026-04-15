@@ -21,7 +21,7 @@ buttons:
 
 # your projects
 projects:
-- name: Automated Land Cover Mapping System for Greece
+- name: Nationwide Automated Land Cover Mapping System
   role: Geospatial Deep Learning Engineer
   timeline: "Oct 2025 - Present"
   image: /images/sections/projects/Greece_article.jpg
@@ -29,7 +29,7 @@ projects:
   summary: Nationwide VHR land cover mapping pipeline combining DINO-based feature extraction, SAM boundary refinement, and active learning with expert-in-the-loop corrections.
   tags: ["professional","remote-sensing"]
 
-- name: SAR to SAR Co-registration Methodologies
+- name: Development, evaluation and validation of SAR to SAR co-registration methodologies
   role: Geospatial Deep Learning Engineer
   timeline: "Mar 2025 - Present"
   image: /images/sections/projects/sar2sar.jpg
@@ -45,13 +45,21 @@ projects:
   summary: Near-real-time MLOps platform integrating SAR and optical data for oil spill detection, analytics, and decision support in marine environments.
   tags: ["professional", "research", "earth-observation"]
 
-- name: Marine Plastic Detection
+- name: Novel Edge-AI system for accurate and near real-time plastic detection and monitoring in marine environment
   role: AI Research Engineer
   timeline: "Jan 2025 - Jun 2025"
   image: /images/sections/projects/marine_plastics.png
   url: "https://edgespaice.eu/"
   summary: Ultra-light edge AI segmentation architecture with pruning, transfer learning, and quantization for on-board marine plastic detection.
   tags: ["research", "professional", "edge-ai"]
+
+- name: Automated Camouflage and Geospatial Declassification System
+  role: Software Engineer - Geospatial Intelligence (Military Service)
+  timeline: "Mar 2023 - Oct 2023"
+  image: /images/sections/projects/declass.jpg
+  url: "https://www.gys.gr/index_en.html"
+  summary: Ultra-light edge AI segmentation architecture with pruning, transfer learning, and quantization for on-board marine plastic detection.
+  tags: ["research", "professional", "declassification"]
 
 - name: Ship Detection on Remote Sensing Synthetic Aperture Radar Data via Deep Learning Techniques
   role: Student Researcher

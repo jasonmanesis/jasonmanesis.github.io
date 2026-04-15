@@ -60,7 +60,9 @@ experiences:
     - >-
       Algorithm Optimization: Optimized co-registration performance for large-scale datasets, reducing processing time while maintaining sub-pixel alignment accuracy.
     strategicPartners:
-    - Commercial satellite data providers
+    - A leading global SAR satellite constellation provider
+    - ESA and Horizon Europe project consortia
+    - NCSR "Demokritos"
 
 - company:
     name: Remote Sensing Laboratory (NTUA)
@@ -75,15 +77,15 @@ experiences:
     start: Jan 2025
     end: Mar 2025
     projectTitle:
-    - Space-Edge Marine Plastic Detection for On-board Inference
+    - Novel Edge-AI system for accurate and near real-time plastic detection and monitoring in marine environment
     responsibilities:
     - >-
       Space-Edge Architecture Design: Engineered an ultralight U-Net architecture for on-board marine plastic detection; optimized the model to fit within the extreme power and memory constraints of orbital hardware.
     - >-
       Model Compression & Optimization: Developed pruning, transfer learning, and quantization workflows to enable real-time inference on low-power chips; maintained high radiometric accuracy for multispectral data while meeting strict computational latency targets.
     strategicPartners:
+    - Edge SpAIce consortium
     - ESA and Horizon Europe project consortia
-    - University research teams and mission engineers
 
   - designation: Geospatial Deep Learning Engineer
     start: Mar 2022
@@ -102,8 +104,8 @@ experiences:
     - >-
       Advanced Analytics & Visualization: Developed custom internal tooling for spectral analysis and spatial visualization, transforming raw model outputs into actionable georeferenced insights for environmental decision-making.
     strategicPartners:
-    - ESA and Horizon Europe project consortia
-    - Industrial and public-sector environmental stakeholders
+    - King Abdullah University of Science and Technology (KAUST)
+    - Saudi Aramco-KAUST Marine Environmental Observations Center (SAKMEO)
 
 - company:
     name: Hellenic Military Geographical Service
