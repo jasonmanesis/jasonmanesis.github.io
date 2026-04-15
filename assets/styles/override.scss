@@ -400,6 +400,11 @@ html[data-theme='light'] .publications-section .tags .btn.badge.btn-info:active 
   margin-top: 0.85rem;
 }
 
+/* Match Project Title top spacing to Responsibilities heading */
+.experiences-section .jm-project-title-line {
+  margin-top: 0.85rem;
+}
+
 /* Make every Work Experience timeline stroke match the horizontal line color */
 html[data-theme='light'] .experiences-section .timeline {
   --jm-experience-line-color: var(--jm-light-border);

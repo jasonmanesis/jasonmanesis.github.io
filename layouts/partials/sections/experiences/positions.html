@@ -35,7 +35,7 @@
 
         <!-- Project title shown inline after the heading label -->
         {{ if $position.projectTitle }}
-            <p><strong>Project Title:</strong>{{ range $index, $title := $position.projectTitle }}{{ if gt $index 0 }}; {{ end }} {{ $title }}{{ end }}</p>
+            <p class="jm-project-title-line"><strong>Project Title:</strong>{{ range $index, $title := $position.projectTitle }}{{ if gt $index 0 }}; {{ end }} {{ $title }}{{ end }}</p>
         {{ end }}
 
         <!-- Add the responsibilities handled at this position -->
