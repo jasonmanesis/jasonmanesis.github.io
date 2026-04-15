@@ -31,16 +31,19 @@ skills:
   logo: /images/sections/skills/python.svg
   summary: "Primary language for geospatial AI pipeline development, model training, and production-grade automation."
   categories: ["languages"]
+  url: "https://www.python.org/"
 
 - name: PostgreSQL
   logo: /images/sections/skills/postgresql.svg
   summary: "Relational database management for geospatial vector data, metadata, and model feedback loops with PostGIS extensions."
   categories: ["languages", "geospatial"]
+  url: "https://www.postgresql.org/"
 
 - name: Bash
   logo: /images/sections/skills/gnubash.svg
   summary: "Automation of data engineering, preprocessing, and deployment operations in Linux environments."
   categories: ["languages", "platforms"]
+  url: "https://www.gnu.org/software/bash/"
 #
 #### ML/DL Frameworks 
 
@@ -48,14 +51,18 @@ skills:
   logo: /images/sections/skills/pytorch.svg
   summary: "Primary deep learning framework for model development, experimentation, and deployment in geospatial AI workflows."
   categories: ["ml"]
+  url: "https://pytorch.org/"
+
+  
 
 - name: PyTorch Lightning
   logo: /images/sections/skills/lightning.svg
   summary: "High-level framework for structured deep learning research and production pipelines with advanced training features and scalability."
-  categories: ["ml"]  
+  categories: ["ml"] 
+  url: "https://www.pytorchlightning.ai/" 
 
 - name: Detectron2
-  logo: /images/sections/skills/Detectron2-Logo-Horz_.png
+  logo: /images/sections/skills/detectron.svg
   summary: "Object detection and segmentation framework used for building geospatial object detection pipelines and instance segmentation models."
   categories: ["ml"]
 
@@ -63,11 +70,13 @@ skills:
   logo: /images/sections/skills/scikitlearn.svg
   summary: "Core library for classical machine learning algorithms, data preprocessing, and model evaluation in geospatial analytics."
   categories: ["ml", "data"]
+  url: "https://scikit-learn.org/stable/"
 
 - name: OpenCV
   logo: /images/sections/skills/opencv.svg
   summary: "Computer vision library used for fast image manipulation, preprocessing, and feature engineering in multispectral and SAR modeling workflows."
   categories: ["ml", "data"]
+  url: "https://opencv.org/"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
@@ -76,7 +85,7 @@ skills:
   url: "https://www.docker.com/"
 
 - name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
+  logo: /images/sections/skills/kubernetes.svg
   summary: "Orchestrates scalable AI and geospatial services for robust production and research environments."
   categories: ["platforms"]
   url: "https://kubernetes.io/"
@@ -85,11 +94,12 @@ skills:
   logo: /images/sections/skills/GDALLogoColor.svg
   summary: "Core stack for large-scale geospatial raster/vector transformations and production geoprocessing pipelines."
   categories: ["geospatial"]
+  url: "https://gdal.org/"
 
 - name: Rasterio, Rioxarray, and Xarray
   logo: /images/sections/skills/grid.svg
   summary: "Advanced geospatial raster analytics, reprojection, chunked processing, and scientific data manipulation."
-  categories: ["geospatial", "data"]
+  categories: ["geospatial"]
 
 - name: GeoPandas and Shapely
   logo: /images/sections/skills/vector.svg
@@ -102,12 +112,13 @@ skills:
   categories: ["data"]
 
 - name: Linux
-  logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/linux.svg
   summary: "Primary operating environment for development, orchestration, and scalable geospatial compute workloads."
   categories: ["platforms"]
+  url: "https://www.kernel.org/"
 
 - name: Git
-  logo: /images/sections/skills/git.png
+  logo: /images/sections/skills/git.svg
   summary: "Version control, collaborative code review, and structured research-to-production workflow management."
   categories: ["platforms"]
   url: "https://git-scm.com/"
