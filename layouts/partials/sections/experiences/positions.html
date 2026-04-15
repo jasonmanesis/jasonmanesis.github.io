@@ -35,7 +35,7 @@
 
         <!-- Project title shown inline after the heading label -->
         {{ if $position.projectTitle }}
-            <h6 class="text-heading jm-inline-meta-line"><strong>Project Title:</strong><span class="jm-inline-meta-value">{{ range $index, $title := $position.projectTitle }}{{ if gt $index 0 }}; {{ end }} {{ $title }}{{ end }}</span></h6>
+            <h6 class="text-heading">Project Title:{{ range $index, $title := $position.projectTitle }}{{ if gt $index 0 }}; {{ end }} {{ $title }}{{ end }}</h6>
         {{ end }}
 
         <!-- Add the responsibilities handled at this position -->
@@ -50,7 +50,7 @@
 
         <!-- Strategic partners shown inline after the heading label -->
         {{ if $position.strategicPartners }}
-            <h6 class="text-heading jm-inline-meta-line"><strong>Strategic Partners:</strong><span class="jm-inline-meta-value">{{ range $index, $partner := $position.strategicPartners }}{{ if gt $index 0 }}; {{ end }} {{ $partner }}{{ end }}</span></h6>
+            <h6 class="text-heading">Strategic Partners:{{ range $index, $partner := $position.strategicPartners }}{{ if gt $index 0 }}; {{ end }} {{ $partner }}{{ end }}</h6>
         {{ end }}
     {{ end }}
     </div>
