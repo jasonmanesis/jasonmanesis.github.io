@@ -15,8 +15,6 @@ buttons:
   filter: "all"
 - name: Languages
   filter: "languages"
-- name: Tools
-  filter: "tools"
 - name: ML/DL Frameworks
   filter: "ml"
 - name: Geospatial
@@ -30,7 +28,7 @@ buttons:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Python
-  logo: /images/sections/skills/c++.png
+  logo: /images/sections/skills/python.svg
   summary: "Primary language for geospatial AI pipeline development, model training, and production-grade automation."
   categories: ["languages"]
 
@@ -84,14 +82,17 @@ skills:
   url: "https://kubernetes.io/"
 
 - name: GDAL/OGR
+  logo: /images/sections/skills/GDALLogoColor.svg
   summary: "Core stack for large-scale geospatial raster/vector transformations and production geoprocessing pipelines."
   categories: ["geospatial"]
 
 - name: Rasterio, Rioxarray, and Xarray
+  logo: /images/sections/skills/grid.svg
   summary: "Advanced geospatial raster analytics, reprojection, chunked processing, and scientific data manipulation."
   categories: ["geospatial", "data"]
 
 - name: GeoPandas and Shapely
+  logo: /images/sections/skills/vector.svg
   summary: "Vector geospatial processing, topology operations, and geometry engineering for ML data preparation."
   categories: ["geospatial"]
 
