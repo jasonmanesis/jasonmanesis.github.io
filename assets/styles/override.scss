@@ -352,12 +352,15 @@ html[data-theme='light'] .publications-section .tags .btn.badge.btn-info:active 
 /* Project card cover images: tone down in normal state, restore on hover */
 .projects-section .card .card-head .card-img-top {
   filter: saturate(0.72) brightness(0.9);
-  transition: filter 0.3s ease;
+  transform: scale(1);
+  transform-origin: center;
+  transition: filter 0.55s ease, transform 0.55s ease;
 }
 
 .projects-section .card:hover .card-head .card-img-top,
 .projects-section .card:focus-within .card-head .card-img-top {
   filter: saturate(1) brightness(1);
+  transform: scale(1.07);
 }
 
 #skill-filter-buttons .skill-filtr-control.active,
@@ -640,6 +643,9 @@ html[data-theme='dark'] {
 
   .projects-section .card .card-head .card-img-top {
     filter: saturate(0.55) brightness(0.72) contrast(1.08);
+    transform: scale(1);
+    transform-origin: center;
+    transition: filter 0.55s ease, transform 0.55s ease;
   }
 
   body,

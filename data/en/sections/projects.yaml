@@ -33,11 +33,11 @@ projects:
   role: Geospatial Deep Learning Engineer
   timeline: "Mar 2025 - Present"
   image: /images/sections/projects/sar2sar.jpg
-  url: "#"
+  url: "https://rededge.ai/"
   summary: High-precision co-registration system for multitemporal VHR SAR data with ARD generation and sub-pixel alignment across Spotlight, Stripmap, and Scan modes.
   tags: ["professional", "research", "remote-sensing"]
 
-- name: Intelligent Early Warning System for Oil Spill Detection
+- name: An Intelligent Early-Warning Oil Spill Detection and Prediction System for the Arabian Gulf and the Red Sea
   role: Geospatial Deep Learning Engineer
   timeline: "Mar 2022 - Oct 2025"
   image: /images/sections/projects/oilspills.jpg
@@ -45,11 +45,11 @@ projects:
   summary: Near-real-time MLOps platform integrating SAR and optical data for oil spill detection, analytics, and decision support in marine environments.
   tags: ["professional", "research", "earth-observation"]
 
-- name: Edge SpAIce Marine Plastic Detection
+- name: Marine Plastic Detection
   role: AI Research Engineer
   timeline: "Jan 2025 - Jun 2025"
   image: /images/sections/projects/marine_plastics.png
-  url: "https://www.ntua.gr/"
+  url: "https://edgespaice.eu/"
   summary: Ultra-light edge AI segmentation architecture with pruning, transfer learning, and quantization for on-board marine plastic detection.
   tags: ["research", "professional", "edge-ai"]
 
@@ -65,7 +65,7 @@ projects:
   role: Student Researcher
   timeline: "Apr 2021 - Present"
   image: /images/sections/projects/ship_datasets.jpg
-  url: "https://github.com/jasonmanesis/Ship-Detection-on-Remote-Sensing-Synthetic-Aperture-Radar-Data"
+  url: "https://github.com/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships"
   summary: A continuously updated repository of satellite imagery datasets containing ships, curated for research and development in maritime vessel detection, classification and segmentation using remote sensing data.
   tags: ["personal", "geospatial", "list","object-detection", "semantic-segmentation", "classification"]
 
