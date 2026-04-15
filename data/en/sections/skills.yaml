@@ -97,6 +97,7 @@ skills:
   categories: ["geospatial"]
 
 - name: NumPy, SciPy, Pandas, and Dask
+  logo: /images/sections/skills/gear.svg
   summary: "Scientific computing and parallel data processing backbone for high-volume Earth observation analytics."
   categories: ["data"]
 
