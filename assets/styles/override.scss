@@ -400,9 +400,13 @@ html[data-theme='light'] .publications-section .tags .btn.badge.btn-info:active 
   margin-top: 0.85rem;
 }
 
-/* Match Project Title top spacing to Responsibilities heading */
-.experiences-section .jm-project-title-line {
+/* Match Project Title/Strategic Partners spacing and weight behavior to Responsibilities */
+.experiences-section .jm-inline-meta-line {
   margin-top: 0.85rem;
+}
+
+.experiences-section .jm-inline-meta-line .jm-inline-meta-value {
+  font-weight: 400;
 }
 
 /* Make every Work Experience timeline stroke match the horizontal line color */
