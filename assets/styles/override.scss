@@ -400,6 +400,15 @@ html[data-theme='light'] .publications-section .tags .btn.badge.btn-info:active 
   margin-top: 0.85rem;
 }
 
+/* Inline experience metadata should read like body text, not section headings */
+html[data-theme='light'] .experiences-section h6.jm-experience-inline-meta {
+  color: var(--jm-light-filter-text) !important;
+}
+
+html[data-theme='dark'] .experiences-section h6.jm-experience-inline-meta {
+  color: var(--jm-dark-text) !important;
+}
+
 /* Make every Work Experience timeline stroke match the horizontal line color */
 html[data-theme='light'] .experiences-section .timeline {
   --jm-experience-line-color: var(--jm-light-border);
