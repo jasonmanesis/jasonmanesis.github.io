@@ -122,3 +122,8 @@ skills:
   summary: "Version control, collaborative code review, and structured research-to-production workflow management."
   categories: ["platforms"]
   url: "https://git-scm.com/"
+
+- name: Matplotlib, Seaborn, and Plotly
+  logo: /images/sections/skills/viz.svg
+  summary: "Libraries for static and interactive data visualization, model performance analysis, and geospatial data exploration."
+  categories: ["visualization", "data"]
