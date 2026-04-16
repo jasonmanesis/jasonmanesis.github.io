@@ -33,10 +33,10 @@ skills:
   categories: ["languages"]
   url: "https://www.python.org/"
 
-- name: PostgreSQL
+- name: PostgreSQL / PostGIS
   logo: /images/sections/skills/postgresql.svg
   summary: "Relational database management for geospatial vector data, metadata, and model feedback loops with PostGIS extensions."
-  categories: ["languages", "geospatial"]
+  categories: ["geospatial"]
   url: "https://www.postgresql.org/"
 
 - name: Bash
@@ -44,16 +44,40 @@ skills:
   summary: "Automation of data engineering, preprocessing, and deployment operations in Linux environments."
   categories: ["languages", "platforms"]
   url: "https://www.gnu.org/software/bash/"
-#
-#### ML/DL Frameworks 
 
+- name: Linux
+  logo: /images/sections/skills/linux.svg
+  summary: "Primary operating environment for development, orchestration, and scalable geospatial compute workloads."
+  categories: ["platforms"]
+  url: "https://www.kernel.org/"
+
+- name: Git
+  logo: /images/sections/skills/git.svg
+  summary: "Version control, collaborative code review, and structured research-to-production workflow management."
+  categories: ["platforms"]
+  url: "https://git-scm.com/"
+
+- name: API & Model Serving
+  logo: /images/sections/skills/fastapi.svg
+  summary: "Developing REST API endpoints using FastAPI to serve machine learning models and handle basic inference requests."
+  categories: ["platforms"]
+
+- name: CI/CD Pipelines
+  logo: /images/sections/skills/githubactions.svg
+  summary: "Familiar with automating testing and basic container builds utilizing GitHub Actions workflows."
+  categories: ["platforms"]
+
+- name: Dependency & Environment Management
+  logo: /images/sections/skills/terminal.svg
+  summary: "Enterprise environment management and high-performance dependency resolution utilizing Anaconda, Mamba, and uv to manage complex Python ecosystems and C-extension constraints."
+  categories: ["platforms"]  
+
+# ML/DL Frameworks 
 - name: PyTorch
   logo: /images/sections/skills/pytorch.svg
   summary: "Primary deep learning framework for model development, experimentation, and deployment in geospatial AI workflows."
   categories: ["ml"]
   url: "https://pytorch.org/"
-
-  
 
 - name: PyTorch Lightning
   logo: /images/sections/skills/lightning.svg
@@ -96,34 +120,23 @@ skills:
   categories: ["geospatial"]
   url: "https://gdal.org/"
 
-- name: Rasterio, Rioxarray, and Xarray
+- name: Raster Processing Stack
   logo: /images/sections/skills/grid.svg
-  summary: "Advanced geospatial raster analytics, reprojection, chunked processing, and scientific data manipulation."
+  summary: "Advanced geospatial raster analytics, chunked processing, and scientific manipulation using Rasterio, Rioxarray, and Xarray."
   categories: ["geospatial"]
 
-- name: GeoPandas and Shapely
+- name: Vector Processing Stack
   logo: /images/sections/skills/vector.svg
-  summary: "Vector geospatial processing, topology operations, and geometry engineering for ML data preparation."
+  summary: "Vector geospatial processing, topology operations, and geometry engineering for ML data preparation via GeoPandas and Shapely."
   categories: ["geospatial"]
 
-- name: NumPy, SciPy, Pandas, and Dask
+- name: Scientific Computing Engine
   logo: /images/sections/skills/gear.svg
-  summary: "Scientific computing and parallel data processing backbone for high-volume Earth observation analytics."
+  summary: "Scientific computing and parallel data processing backbone (NumPy, SciPy, Pandas, Dask) for high-volume Earth observation analytics."
   categories: ["data"]
 
-- name: Linux
-  logo: /images/sections/skills/linux.svg
-  summary: "Primary operating environment for development, orchestration, and scalable geospatial compute workloads."
-  categories: ["platforms"]
-  url: "https://www.kernel.org/"
-
-- name: Git
-  logo: /images/sections/skills/git.svg
-  summary: "Version control, collaborative code review, and structured research-to-production workflow management."
-  categories: ["platforms"]
-  url: "https://git-scm.com/"
-
-- name: Matplotlib, Seaborn, and Plotly
+- name: Data Visualization Stack
   logo: /images/sections/skills/viz.svg
-  summary: "Libraries for static and interactive data visualization, model performance analysis, and geospatial data exploration."
-  categories: ["visualization", "data"]
+  summary: "Libraries (Matplotlib, Seaborn, Plotly) for static and interactive data visualization, model performance analysis, and data exploration."
+  categories: ["data"]
+
